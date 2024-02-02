@@ -11,7 +11,7 @@ envHelper.loadEnvFromDopplerOrDotEnv(envPath);
 const proxy = require('express-http-proxy');
 const http = require("http");
 const {numberFormat} = require("underscore.string");
-const qm = require("../dfda-1/public/app/public/js/qmHelpers");
+const qm = require("../fdai/public/app/public/js/qmHelpers");
 var crypto = require('crypto');
 var audit = require('express-requests-logger')
 const Str = require('@supercharge/strings')
@@ -57,11 +57,11 @@ app.use(function(req, res, next) {
     }
     next();
 });
-app.use('/', express.static(path.join(__dirname, '../dfda-1/public/app/public')))
+app.use('/', express.static(path.join(__dirname, '../fdai/public/app/public')))
 app.use('/#app', express.static(path.join(__dirname, '../src')))
 app.use('/docs', express.static(path.join(__dirname, '../src/docs')))
-app.use('/data', express.static(path.join(__dirname, '../dfda-1/public/app/public/data')))
-app.use('/js', express.static(path.join(__dirname, '../dfda-1/public/app/public/js')))
+app.use('/data', express.static(path.join(__dirname, '../fdai/public/app/public/data')))
+app.use('/js', express.static(path.join(__dirname, '../fdai/public/app/public/js')))
 app.use('/', require('./routes/api'));
 app.use('/', require('./routes/auth'));
 //app.use('/', require('./routes/github'));

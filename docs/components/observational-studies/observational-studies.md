@@ -4,8 +4,8 @@
 - [Impact](#impact)
 - [Study Index](#study-index)
 - [Overall Mood Mega Study](#overall-mood-mega-study)
-- [Models](../../../apps/dfda-1/app/Studies)
-- [Front-End Views](../../../apps/dfda-1/app/Studies)
+- [Models](../../../apps/fdai/app/Studies)
+- [Front-End Views](../../../apps/fdai/app/Studies)
 
 ## Overview
 
@@ -28,4 +28,4 @@ Observational studies are a type of study in which researchers observe the behav
 
 ## Tests
 
-[PHPUnit on Staging Environment](../../../apps/dfda-1/tests/StagingUnitTests/C/Studies)
+[PHPUnit on Staging Environment](../../../apps/fdai/tests/StagingUnitTests/C/Studies)

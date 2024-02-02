@@ -6,9 +6,9 @@ By using the Browser Extension, you can track your mood, symptoms, or any outcom
 
 # 💻 Code
 
-For development, you need to copy manifest-chrome.json into manifest.json and then load the [apps/dfda-1/public/app/public](../../../apps/dfda-1/public/app/public) folder as an unpacked extension in Chrome.
+For development, you need to copy manifest-chrome.json into manifest.json and then load the [apps/dfda-1/public/app/public](../../../apps/fdai/public/app/public) folder as an unpacked extension in Chrome.
 
-[👉 Code here...](../../../apps/dfda-1/public/app/public)
+[👉 Code here...](../../../apps/fdai/public/app/public)
 
 # 🛟 Support
 

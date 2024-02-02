@@ -17,7 +17,7 @@ Thus, I automatically generate reports intended to help you and your physician g
 
 
 * [HTML Example](1398-root-cause-analysis.html)
-* [Model and Analytics Code](../../../apps/dfda-1/app/Reports/RootCauseAnalysis.php)
-* [Front-End View Code](../../../apps/dfda-1/resources/views/root-cause-content.blade.php)
+* [Model and Analytics Code](../../../apps/fdai/app/Reports/RootCauseAnalysis.php)
+* [Front-End View Code](../../../apps/fdai/resources/views/root-cause-content.blade.php)
 
 [Generate your own!](https://app.curedao.org/)

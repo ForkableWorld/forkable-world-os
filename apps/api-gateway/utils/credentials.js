@@ -1,5 +1,5 @@
 const urlHelper = require("./urlHelper");
-const qm = require("../../dfda-1/public/app/public/js/qmHelpers");
+const qm = require("../../fdai/public/app/public/js/qmHelpers");
 const dataSources = require("../data/data-sources");
 const envHelper = require("../../ionic/ts/env-helper");
 let credentials = {

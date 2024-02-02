@@ -2,7 +2,7 @@ var crypto = require('crypto');
 const { PrismaClient } = require('@prisma/client')
 const credentials = require("./utils/credentials");
 var randomBytes = require('bluebird').promisify(require('crypto').randomBytes);
-const qm = require("../dfda-1/public/app/public/js/qmHelpers");
+const qm = require("../fdai/public/app/public/js/qmHelpers");
 const prisma = new PrismaClient()
 let oaClients = prisma.oa_clients;
 let client;

@@ -134,12 +134,12 @@ done by modularizing the codebase into libraries and plugins that can be shared 
 
 Apps in this monorepo:
 
-- [FDAi-1](apps/dfda-1) - The first version of the decentralized FDA. It is a web app that allows users to track their health data and analyze it to identify the most effective ways to maximize health and happiness.
+- [FDAi-1](apps/fdai) - The first version of the decentralized FDA. It is a web app that allows users to track their health data and analyze it to identify the most effective ways to maximize health and happiness.
 - Yours? - If you'd like to create the next version of the FDAi, expand its functionality, or get help with your app, feel free to add it to the [apps](apps) folder and submit a pull request.
 
 # FDAi v1 Prototype
 
-We've got a monolithic centralized implementation of the FDAi at [apps/dfda-1](apps/dfda-1) that we're wanting to modularize and decentralize into a set of [FAIR](docs/contributing/fair.md) [libraries](libs) and plugins that can be shared with other apps.
+We've got a monolithic centralized implementation of the FDAi at [apps/dfda-1](apps/fdai) that we're wanting to modularize and decentralize into a set of [FAIR](docs/contributing/fair.md) [libraries](libs) and plugins that can be shared with other apps.
 
 Currently, the main apps are the [Demo Data Collection, Import, and Analysis App](https://app.crowdsourcingcures.org) and the
 [Journal of Citizen Science](https://studies.crowdsourcingcures.org).
@@ -160,11 +160,11 @@ Currently, the main apps are the [Demo Data Collection, Import, and Analysis App
 
 <p align="center">
 
-<img src="apps/dfda-1/public/app/public/img/screenshots/record-inbox-import-connectors-analyze-study.png" width="800" alt="FDAi screenshots">
+<img src="apps/fdai/public/app/public/img/screenshots/record-inbox-import-connectors-analyze-study.png" width="800" alt="FDAi screenshots">
 &nbsp
 </p>
 <p align="center">
-  <img src="apps/dfda-1/public/app/public/img/screenshots/reminder-inbox-screenshot-no-text.png" width="300" alt="Reminder Inbox">
+  <img src="apps/fdai/public/app/public/img/screenshots/reminder-inbox-screenshot-no-text.png" width="300" alt="Reminder Inbox">
 </p>
 
 Collects and aggregate data on symptoms, diet, sleep, exercise, weather, medication, and anything else from dozens

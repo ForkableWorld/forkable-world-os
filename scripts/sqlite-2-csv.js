@@ -3,7 +3,7 @@ const fs = require('fs').promises;
 const { Parser } = require('json2csv');
 
 // Path to your SQLite file
-const dbPath = 'C:\\Users\\User\\OneDrive\\code\\decentralized-fda\\apps\\dfda-1\\tests\\fixtures\\qm_test.sqlite';
+const dbPath = 'C:\\Users\\User\\OneDrive\\code\\decentralized-fda\\apps\\fdai\\tests\\fixtures\\qm_test.sqlite';
 
 // Open the SQLite Database
 const db = new sqlite3.Database(dbPath, sqlite3.OPEN_READONLY, (err) => {

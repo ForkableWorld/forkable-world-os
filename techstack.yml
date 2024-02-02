@@ -16,7 +16,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/995/K85ZWV2F.png
-  detection_source: apps/dfda-1/public/app/docker-compose.yml
+  detection_source: apps/fdai/public/app/docker-compose.yml
   last_updated_by: Mike P. Sinn
   last_updated_on: 2023-03-31 00:02:07.000000000 Z
 - name: JavaScript
@@ -71,8 +71,8 @@ tools:
   category: Languages & Frameworks
   sub_category: Front-End Frameworks
   image_url: https://img.stackshare.io/service/1101/C9QJ7V3X.png
-  detection_source_url: apps/dfda-1/package-lock.json
-  detection_source: apps/dfda-1/package.json
+  detection_source_url: apps/fdai/package-lock.json
+  detection_source: apps/fdai/package.json
   last_updated_by: Mike P. Sinn
   last_updated_on: 2023-03-31 00:02:07.000000000 Z
 - name: ExpressJS
@@ -87,7 +87,7 @@ tools:
   sub_category: Microframeworks (Backend)
   image_url: https://img.stackshare.io/service/1163/hashtag.png
   detection_source_url: apps/api-gateway/package-lock.json
-  detection_source: apps/dfda-1/public/app/package.json
+  detection_source: apps/fdai/public/app/package.json
   last_updated_by: Mike P. Sinn
   last_updated_on: 2023-02-14 15:12:17.000000000 Z
 - name: Guzzle
@@ -100,7 +100,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Microframeworks (Backend)
   image_url: https://img.stackshare.io/service/2350/638632.png
-  detection_source: apps/dfda-1/composer.json
+  detection_source: apps/fdai/composer.json
   last_updated_by: Mike P. Sinn
   last_updated_on: 2023-03-31 00:02:07.000000000 Z
 - name: Laravel
@@ -112,8 +112,8 @@ tools:
   category: Languages & Frameworks
   sub_category: Frameworks (Full Stack)
   image_url: https://img.stackshare.io/service/992/AcA2LnWL_400x400.jpg
-  detection_source_url: apps/dfda-1/composer.lock
-  detection_source: apps/dfda-1/composer.json
+  detection_source_url: apps/fdai/composer.lock
+  detection_source: apps/fdai/composer.json
   last_updated_by: Mike P. Sinn
   last_updated_on: 2023-03-31 00:02:07.000000000 Z
 - name: Next.js
@@ -165,8 +165,8 @@ tools:
   category: Libraries
   sub_category: Javascript MVC Frameworks
   image_url: https://img.stackshare.io/service/3837/paeckCWC.png
-  detection_source_url: apps/dfda-1/package-lock.json
-  detection_source: apps/dfda-1/package.json
+  detection_source_url: apps/fdai/package-lock.json
+  detection_source: apps/fdai/package.json
   last_updated_by: Mike P. Sinn
   last_updated_on: 2023-03-31 00:02:07.000000000 Z
 - name: jQuery
@@ -179,8 +179,8 @@ tools:
   category: Libraries
   sub_category: Javascript UI Libraries
   image_url: https://img.stackshare.io/service/1021/lxEKmMnB_400x400.jpg
-  detection_source_url: apps/dfda-1/package-lock.json
-  detection_source: apps/dfda-1/package.json
+  detection_source_url: apps/fdai/package-lock.json
+  detection_source: apps/fdai/package.json
   last_updated_by: Mike P. Sinn
   last_updated_on: 2023-03-31 00:02:07.000000000 Z
 - name: Apache Ignite
@@ -192,7 +192,7 @@ tools:
   category: Data Stores
   sub_category: In-Memory Databases
   image_url: https://img.stackshare.io/service/6053/xTBxO73F_200x200.png
-  detection_source: apps/dfda-1/public/app/tests/docker-compose.yml
+  detection_source: apps/fdai/public/app/tests/docker-compose.yml
   last_updated_by: Mike P. Sinn
   last_updated_on: 2023-03-31 00:02:07.000000000 Z
 - name: Memcached
@@ -204,7 +204,7 @@ tools:
   category: Data Stores
   sub_category: Databases
   image_url: https://img.stackshare.io/service/1040/hDNnpa4a_400x400.jpg
-  detection_source: apps/dfda-1/docker-compose.yml
+  detection_source: apps/fdai/docker-compose.yml
   last_updated_by: Mike P. Sinn
   last_updated_on: 2023-03-31 00:02:07.000000000 Z
 - name: Minio
@@ -216,7 +216,7 @@ tools:
   category: Data Stores
   sub_category: Cloud Storage
   image_url: https://img.stackshare.io/service/4485/gTawkyAA.png
-  detection_source: apps/dfda-1/docker-compose.yml
+  detection_source: apps/fdai/docker-compose.yml
   last_updated_by: Mike P. Sinn
   last_updated_on: 2023-03-31 00:02:07.000000000 Z
 - name: MongoDB
@@ -227,7 +227,7 @@ tools:
   category: Data Stores
   sub_category: Databases
   image_url: https://img.stackshare.io/service/1030/leaf-360x360.png
-  detection_source: apps/dfda-1/app/Types/ObjectHelper.php
+  detection_source: apps/fdai/app/Types/ObjectHelper.php
   last_updated_by: Mike P. Sinn
   last_updated_on: 2023-03-31 00:02:07.000000000 Z
 - name: PostgreSQL
@@ -238,7 +238,7 @@ tools:
   category: Data Stores
   sub_category: Databases
   image_url: https://img.stackshare.io/service/1028/ASOhU5xJ.png
-  detection_source: apps/dfda-1/docker-compose.yml
+  detection_source: apps/fdai/docker-compose.yml
   last_updated_by: Mike P. Sinn
   last_updated_on: 2023-03-31 00:02:07.000000000 Z
 - name: Prisma
@@ -252,7 +252,7 @@ tools:
   sub_category: Object Relational Mapper (ORM)
   image_url: https://img.stackshare.io/service/8680/Logo_Symbol_White.jpg
   detection_source_url: apps/api-gateway/package-lock.json
-  detection_source: apps/dfda-1/public/app/package.json
+  detection_source: apps/fdai/public/app/package.json
   last_updated_by: Mike P. Sinn
   last_updated_on: 2022-11-26 10:57:08.000000000 Z
 - name: Redis
@@ -264,7 +264,7 @@ tools:
   category: Data Stores
   sub_category: In-Memory Databases
   image_url: https://img.stackshare.io/service/1031/default_cbce472cd134adc6688572f999e9122b9657d4ba.png
-  detection_source: apps/dfda-1/docker-compose.yml
+  detection_source: apps/fdai/docker-compose.yml
   last_updated_by: Mike P. Sinn
   last_updated_on: 2023-03-31 00:02:07.000000000 Z
 - name: SQLite
@@ -303,7 +303,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: JavaScript Compilers
   image_url: https://img.stackshare.io/service/2739/-1wfGjNw.png
-  detection_source_url: apps/dfda-1/package-lock.json
+  detection_source_url: apps/fdai/package-lock.json
   detection_source: package.json
   last_updated_by: Mike P. Sinn
   last_updated_on: 2023-03-31 00:02:07.000000000 Z
@@ -329,8 +329,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Javascript Testing Framework
   image_url: https://img.stackshare.io/service/1725/chai.png
-  detection_source_url: apps/dfda-1/package-lock.json
-  detection_source: apps/dfda-1/public/app/routes/passport-quantimodo-oauth2/package.json
+  detection_source_url: apps/fdai/package-lock.json
+  detection_source: apps/fdai/public/app/routes/passport-quantimodo-oauth2/package.json
   last_updated_by: Mike P. Sinn
   last_updated_on: 2023-03-31 00:02:07.000000000 Z
 - name: Codeship
@@ -341,7 +341,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Continuous Integration
   image_url: https://img.stackshare.io/service/224/avatar_codeship_colour.png
-  detection_source: apps/dfda-1/public/app/tests/codeship-steps.yml
+  detection_source: apps/fdai/public/app/tests/codeship-steps.yml
   last_updated_by: Mike P. Sinn
   last_updated_on: 2023-03-31 00:02:07.000000000 Z
 - name: Coveralls
@@ -353,7 +353,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Code Coverage
   image_url: https://img.stackshare.io/service/680/a43e4a04cb9f778842de43f95db59a14.png
-  detection_source: apps/dfda-1/public/app/package.json
+  detection_source: apps/fdai/public/app/package.json
   last_updated_by: Mike P. Sinn
   last_updated_on: 2023-03-31 00:02:07.000000000 Z
 - name: Cypress
@@ -367,7 +367,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Javascript Testing Framework
   image_url: https://img.stackshare.io/service/9231/default_66c5c1a197dcd0232e41e4ab6299d119b4e165b3.png
-  detection_source_url: apps/dfda-1/package-lock.json
+  detection_source_url: apps/fdai/package-lock.json
   detection_source: package.json
   last_updated_by: Mike P. Sinn
   last_updated_on: 2023-03-31 00:02:07.000000000 Z
@@ -433,7 +433,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Continuous Deployment
   image_url: https://img.stackshare.io/service/9309/PoHJY3K8_400x400.jpg
-  detection_source: apps/dfda-1/cloudbuild.yaml
+  detection_source: apps/fdai/cloudbuild.yaml
   last_updated_by: Mike P. Sinn
   last_updated_on: 2023-03-31 00:02:07.000000000 Z
 - name: Gradle
@@ -445,7 +445,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Java Build Tools
   image_url: https://img.stackshare.io/service/975/gradlephant-social-black-bg.png
-  detection_source: apps/dfda-1/public/app/build-extras.gradle
+  detection_source: apps/fdai/public/app/build-extras.gradle
   last_updated_by: Mike P. Sinn
   last_updated_on: 2022-06-15 04:39:02.000000000 Z
 - name: Jasmine
@@ -457,8 +457,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Javascript Testing Framework
   image_url: https://img.stackshare.io/service/831/7c0b595409af531b9cdeb07f8c513e8b.png
-  detection_source_url: apps/dfda-1/public/app/yarn.lock
-  detection_source: apps/dfda-1/public/app/package.json
+  detection_source_url: apps/fdai/public/app/yarn.lock
+  detection_source: apps/fdai/public/app/package.json
   last_updated_by: Mike P. Sinn
   last_updated_on: 2023-03-31 00:02:07.000000000 Z
 - name: Jest
@@ -486,8 +486,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Javascript Testing Framework
   image_url: https://img.stackshare.io/service/832/mocha.png
-  detection_source_url: apps/dfda-1/package-lock.json
-  detection_source: apps/dfda-1/public/app/routes/passport-quantimodo-oauth2/package.json
+  detection_source_url: apps/fdai/package-lock.json
+  detection_source: apps/fdai/public/app/routes/passport-quantimodo-oauth2/package.json
   last_updated_by: Mike P. Sinn
   last_updated_on: 2023-03-31 00:02:07.000000000 Z
 - name: NGINX
@@ -499,7 +499,7 @@ tools:
   category: Application Hosting
   sub_category: Web Servers
   image_url: https://img.stackshare.io/service/1052/YMxUfyWf.png
-  detection_source: apps/dfda-1/public/app/nginx.conf
+  detection_source: apps/fdai/public/app/nginx.conf
   last_updated_by: Mike P. Sinn
   last_updated_on: 2023-03-31 00:02:07.000000000 Z
 - name: Octokit
@@ -523,8 +523,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Testing Frameworks
   image_url: https://img.stackshare.io/service/1616/1_WsEnddd5Y4EgEHsT054kUQ.jpeg
-  detection_source_url: apps/dfda-1/composer.lock
-  detection_source: apps/dfda-1/composer.json
+  detection_source_url: apps/fdai/composer.lock
+  detection_source: apps/fdai/composer.json
   last_updated_by: Mike P. Sinn
   last_updated_on: 2023-03-31 00:02:07.000000000 Z
 - name: Prettier
@@ -537,7 +537,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Code Review
   image_url: https://img.stackshare.io/service/7035/default_66f265943abed56bcdbfca1c866a4261b1fbb063.jpg
-  detection_source_url: apps/dfda-1/package-lock.json
+  detection_source_url: apps/fdai/package-lock.json
   detection_source: package.json
   last_updated_by: Mike P. Sinn
   last_updated_on: 2023-03-31 00:02:07.000000000 Z
@@ -549,7 +549,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Code Review
   image_url: https://img.stackshare.io/service/5561/303157.png
-  detection_source: apps/dfda-1/public/app/package.json
+  detection_source: apps/fdai/public/app/package.json
   last_updated_by: Mike P. Sinn
   last_updated_on: 2023-03-31 00:02:07.000000000 Z
 - name: Travis CI
@@ -561,7 +561,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Continuous Integration
   image_url: https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png
-  detection_source: apps/dfda-1/public/app/tests/.travis.yml
+  detection_source: apps/fdai/public/app/tests/.travis.yml
   last_updated_by: Mike P. Sinn
   last_updated_on: 2022-06-15 04:39:02.000000000 Z
 - name: Webpack
@@ -574,8 +574,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: JS Build Tools / JS Task Runners
   image_url: https://img.stackshare.io/service/1682/IMG_4636.PNG
-  detection_source_url: apps/dfda-1/package-lock.json
-  detection_source: apps/dfda-1/package.json
+  detection_source_url: apps/fdai/package-lock.json
+  detection_source: apps/fdai/package.json
   last_updated_by: Mike P. Sinn
   last_updated_on: 2023-03-31 00:02:07.000000000 Z
 - name: Yarn
@@ -599,8 +599,8 @@ tools:
   category: Monitoring
   sub_category: node.js Application Monitoring
   image_url: https://img.stackshare.io/service/5577/preview.png
-  detection_source_url: apps/dfda-1/public/app/yarn.lock
-  detection_source: apps/dfda-1/public/app/package.json
+  detection_source_url: apps/fdai/public/app/yarn.lock
+  detection_source: apps/fdai/public/app/package.json
   last_updated_by: Mike P. Sinn
   last_updated_on: 2023-03-31 00:02:07.000000000 Z
 - name: npm
@@ -611,7 +611,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Front End Package Manager
   image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
-  detection_source: apps/dfda-1/public/app/package.json
+  detection_source: apps/fdai/public/app/package.json
   last_updated_by: Mike P. Sinn
   last_updated_on: 2023-03-31 00:02:07.000000000 Z
 - name: Heroku
@@ -623,7 +623,7 @@ tools:
   category: Application Hosting
   sub_category: Platform as a Service
   image_url: https://img.stackshare.io/service/133/3wgIDj3j.png
-  detection_source: apps/dfda-1/public/app/tests/app.json
+  detection_source: apps/fdai/public/app/tests/app.json
   last_updated_by: Mike P. Sinn
   last_updated_on: 2022-06-15 04:39:02.000000000 Z
 - name: LogRocket
@@ -634,7 +634,7 @@ tools:
   category: Application Utilities
   sub_category: User Feedback as a Service
   image_url: https://img.stackshare.io/service/6063/logo_bg.png
-  detection_source: apps/dfda-1/package.json
+  detection_source: apps/fdai/package.json
   last_updated_by: Mike P. Sinn
   last_updated_on: 2023-03-31 00:02:07.000000000 Z
 - name: Mailchimp
@@ -645,7 +645,7 @@ tools:
   category: Support, Sales, and Marketing
   sub_category: Email Marketing
   image_url: https://img.stackshare.io/service/47/default_3a2efb58b55346c25d951f68f21e56f8af77c9b8.jpg
-  detection_source: apps/dfda-1/composer.json
+  detection_source: apps/fdai/composer.json
   last_updated_by: Mike P. Sinn
   last_updated_on: 2023-03-31 00:02:07.000000000 Z
 - name: Netlify
@@ -657,7 +657,7 @@ tools:
   category: Application Utilities
   sub_category: Static Web Hosting
   image_url: https://img.stackshare.io/service/2748/default_5dfbb146cf22182bca88c7d07f2515a5888fc12a.jpg
-  detection_source: apps/dfda-1/public/app/netlify.toml
+  detection_source: apps/fdai/public/app/netlify.toml
   last_updated_by: Mike P. Sinn
   last_updated_on: 2023-03-31 00:02:07.000000000 Z
 - name: Twilio SendGrid
@@ -668,7 +668,7 @@ tools:
   category: Communications
   sub_category: Transactional Email
   image_url: https://img.stackshare.io/service/43/kQ_6nwmP.jpg
-  detection_source: apps/dfda-1/composer.json
+  detection_source: apps/fdai/composer.json
   last_updated_by: Mike P. Sinn
   last_updated_on: 2023-03-31 00:02:07.000000000 Z
 - name: cURL
@@ -679,7 +679,7 @@ tools:
   category: Assets and Media
   sub_category: File Transfer
   image_url: https://img.stackshare.io/service/6552/curl-logo.png
-  detection_source: apps/dfda-1/public/app/tests/docker-compose.yml
+  detection_source: apps/fdai/public/app/tests/docker-compose.yml
   last_updated_by: Mike P. Sinn
   last_updated_on: 2023-03-31 00:02:07.000000000 Z
 - name: Alpine Linux
@@ -691,7 +691,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Operating Systems
   image_url: https://img.stackshare.io/service/6429/alpine_linux.png
-  detection_source: apps/dfda-1/docker-compose.yml
+  detection_source: apps/fdai/docker-compose.yml
   last_updated_by: Mike P. Sinn
   last_updated_on: 2023-03-31 00:02:07.000000000 Z
 - name: Context.IO
@@ -703,7 +703,7 @@ tools:
   category: Communications
   sub_category: Email API
   image_url: https://img.stackshare.io/service/240/mPMj_ee5.png
-  detection_source: apps/dfda-1/composer.json
+  detection_source: apps/fdai/composer.json
   last_updated_by: Mike P. Sinn
   last_updated_on: 2023-03-31 00:02:07.000000000 Z
 - name: HTML
@@ -712,7 +712,7 @@ tools:
   open_source: false
   hosted_saas: false
   image_url: https://img.stackshare.io/service/2270/no-img-open-source.png
-  detection_source: apps/dfda-1/public/api/docs/index.html
+  detection_source: apps/fdai/public/api/docs/index.html
   last_updated_by: Mike P. Sinn
   last_updated_on: 2023-03-31 00:02:07.000000000 Z
 - name: Lodash
@@ -725,7 +725,7 @@ tools:
   sub_category: Javascript Utilities & Libraries
   image_url: https://img.stackshare.io/service/2438/lodash.png
   detection_source_url: apps/api-gateway/package-lock.json
-  detection_source: apps/dfda-1/package.json
+  detection_source: apps/fdai/package.json
   last_updated_by: Mike P. Sinn
   last_updated_on: 2023-03-31 00:02:07.000000000 Z
 - name: Moment.js
@@ -740,7 +740,7 @@ tools:
   sub_category: Javascript Utilities & Libraries
   image_url: https://img.stackshare.io/service/3643/Xrtdc94q_400x400.png
   detection_source_url: apps/api-gateway/package-lock.json
-  detection_source: apps/dfda-1/package.json
+  detection_source: apps/fdai/package.json
   last_updated_by: Mike P. Sinn
   last_updated_on: 2023-03-31 00:02:07.000000000 Z
 - name: PowerShell
@@ -771,7 +771,7 @@ tools:
   category: Libraries
   sub_category: Javascript Utilities & Libraries
   image_url: https://ucarecdn.com/c4c55828-7bcf-4661-8f4f-52745636aafd/
-  detection_source: apps/dfda-1/public/app/package.json
+  detection_source: apps/fdai/public/app/package.json
   last_updated_by: Mike P. Sinn
   last_updated_on: 2023-03-31 00:02:07.000000000 Z
 - name: Ubuntu
@@ -782,7 +782,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Operating Systems
   image_url: https://img.stackshare.io/service/3511/cof_orange_hex.jpg
-  detection_source: apps/dfda-1/public/app/Dockerfile
+  detection_source: apps/fdai/public/app/Dockerfile
   last_updated_by: Mike P. Sinn
   last_updated_on: 2023-03-31 00:02:07.000000000 Z
 - name: axios
@@ -795,7 +795,7 @@ tools:
   category: Libraries
   sub_category: Javascript Utilities & Libraries
   image_url: https://img.stackshare.io/no-img-open-source.png
-  detection_source_url: apps/dfda-1/package-lock.json
+  detection_source_url: apps/fdai/package-lock.json
   detection_source: package.json
   last_updated_by: dependabot[bot]
   last_updated_on: 2023-11-15 19:00:02.000000000 Z
@@ -804,7 +804,7 @@ tools:
   open_source: false
   hosted_saas: false
   image_url: https://img.stackshare.io/service/9527/5502029.jpeg
-  detection_source: apps/dfda-1/public/app/package.json
+  detection_source: apps/fdai/public/app/package.json
   last_updated_by: Mike P. Sinn
   last_updated_on: 2023-03-31 00:02:07.000000000 Z
 - name: laravel-mix
@@ -813,7 +813,7 @@ tools:
   open_source: false
   hosted_saas: false
   image_url: https://img.stackshare.io/service/7945/h7umz7fz_normal.jpg
-  detection_source: apps/dfda-1/package.json
+  detection_source: apps/fdai/package.json
   last_updated_by: Mike P. Sinn
   last_updated_on: 2023-03-31 00:02:07.000000000 Z
 - name: lint-staged
@@ -821,7 +821,7 @@ tools:
   open_source: false
   hosted_saas: false
   image_url: https://img.stackshare.io/service/10577/11071.jpeg
-  detection_source: apps/dfda-1/public/app/package.json
+  detection_source: apps/fdai/public/app/package.json
   last_updated_by: Mike P. Sinn
   last_updated_on: 2023-03-31 00:02:07.000000000 Z
 - name: solidity
@@ -837,7 +837,7 @@ tools:
   open_source: false
   hosted_saas: false
   image_url: https://img.stackshare.io/service/8032/pBeeJQDQ_normal.png
-  detection_source: apps/dfda-1/public/app/package.json
+  detection_source: apps/fdai/public/app/package.json
   last_updated_by: Mike P. Sinn
   last_updated_on: 2023-03-31 00:02:07.000000000 Z
 - name: "@babel/core"
@@ -850,8 +850,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15810/default_004658cda9b38934f2871435e9dc15608c86e8be.png
-  detection_source_url: apps/dfda-1/package-lock.json
-  detection_source: apps/dfda-1/public/app/package.json
+  detection_source_url: apps/fdai/package-lock.json
+  detection_source: apps/fdai/public/app/package.json
   last_updated_by: Mike P. Sinn
   last_updated_on: 2023-03-31 00:02:07.000000000 Z
 - name: "@babel/preset-react"
@@ -864,7 +864,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15890/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
-  detection_source_url: apps/dfda-1/package-lock.json
+  detection_source_url: apps/fdai/package-lock.json
   detection_source: package.json
   last_updated_by: Mike P. Sinn
   last_updated_on: 2023-07-20 16:57:52.000000000 Z
@@ -878,8 +878,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16092/default_8725384794b44fe56f31da1d21ae759cf07be7a5.png
-  detection_source_url: apps/dfda-1/public/app/yarn.lock
-  detection_source: apps/dfda-1/public/app/package.json
+  detection_source_url: apps/fdai/public/app/yarn.lock
+  detection_source: apps/fdai/public/app/package.json
   last_updated_by: Mike P. Sinn
   last_updated_on: 2023-03-31 00:02:07.000000000 Z
 - name: "@mdx-js/react"
@@ -906,7 +906,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16999/default_43f23668e39c9b3381720c9c76540776b8a49167.png
-  detection_source_url: apps/dfda-1/public/app/yarn.lock
+  detection_source_url: apps/fdai/public/app/yarn.lock
   detection_source: package.json
   last_updated_by: Mike P. Sinn
   last_updated_on: 2023-03-31 00:02:07.000000000 Z
@@ -949,8 +949,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18274/default_7a7ed285fac4b842f0d8c3991804954d9db6b793.png
-  detection_source_url: apps/dfda-1/package-lock.json
-  detection_source: apps/dfda-1/public/app/package.json
+  detection_source_url: apps/fdai/package-lock.json
+  detection_source: apps/fdai/public/app/package.json
   last_updated_by: Mike P. Sinn
   last_updated_on: 2023-03-31 00:02:07.000000000 Z
 - name: "@types/node"
@@ -977,7 +977,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18379/default_d0ba753d47207ad8f04b02befcab81c50f38718f.png
-  detection_source_url: apps/dfda-1/package-lock.json
+  detection_source_url: apps/fdai/package-lock.json
   detection_source: package.json
   last_updated_by: Mike P. Sinn
   last_updated_on: 2023-03-31 00:02:07.000000000 Z
@@ -1019,7 +1019,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16613/default_8bb559d64720e298d7108ccd64281e535c1c76a8.png
-  detection_source_url: apps/dfda-1/public/app/yarn.lock
+  detection_source_url: apps/fdai/public/app/yarn.lock
   detection_source: package.json
   last_updated_by: Mike P. Sinn
   last_updated_on: 2023-03-31 00:02:07.000000000 Z
@@ -1033,7 +1033,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15982/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
-  detection_source_url: apps/dfda-1/public/app/yarn.lock
+  detection_source_url: apps/fdai/public/app/yarn.lock
   detection_source: package.json
   last_updated_by: Mike P. Sinn
   last_updated_on: 2023-03-31 00:02:07.000000000 Z
@@ -1047,8 +1047,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15980/default_732016a20524708efe7a4c77497fe9bfeea19ba6.png
-  detection_source_url: apps/dfda-1/public/app/yarn.lock
-  detection_source: apps/dfda-1/public/app/package.json
+  detection_source_url: apps/fdai/public/app/yarn.lock
+  detection_source: apps/fdai/public/app/package.json
   last_updated_by: Mike P. Sinn
   last_updated_on: 2023-03-31 00:02:07.000000000 Z
 - name: app-root-path
@@ -1061,7 +1061,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16640/default_50c9ed1615a25628505ab53def64d82450ced26b.png
-  detection_source_url: apps/dfda-1/package-lock.json
+  detection_source_url: apps/fdai/package-lock.json
   detection_source: package.json
   last_updated_by: Mike P. Sinn
   last_updated_on: 2023-03-31 00:02:07.000000000 Z
@@ -1075,7 +1075,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16018/default_7a88bebb451873cc63bd99007de5bd3bb8ef85de.png
-  detection_source_url: apps/dfda-1/package-lock.json
+  detection_source_url: apps/fdai/package-lock.json
   detection_source: package.json
   last_updated_by: dependabot[bot]
   last_updated_on: 2023-04-10 22:59:25.000000000 Z
@@ -1089,8 +1089,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18255/default_315a767553036d5263c95420817fe68cd3885651.png
-  detection_source_url: apps/dfda-1/public/app/yarn.lock
-  detection_source: apps/dfda-1/public/app/package.json
+  detection_source_url: apps/fdai/public/app/yarn.lock
+  detection_source: apps/fdai/public/app/package.json
   last_updated_by: dependabot[bot]
   last_updated_on: 2023-04-10 22:56:49.000000000 Z
 - name: babel-jest
@@ -1117,8 +1117,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15805/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
-  detection_source_url: apps/dfda-1/public/app/yarn.lock
-  detection_source: apps/dfda-1/public/app/package.json
+  detection_source_url: apps/fdai/public/app/yarn.lock
+  detection_source: apps/fdai/public/app/package.json
   last_updated_by: Mike P. Sinn
   last_updated_on: 2023-03-31 00:02:07.000000000 Z
 - name: bcryptjs
@@ -1132,7 +1132,7 @@ tools:
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16857/default_627f05e6a07ce29fc9f119417270f38e8aa5c5e2.png
   detection_source_url: apps/api-gateway/package-lock.json
-  detection_source: apps/dfda-1/public/app/package.json
+  detection_source: apps/fdai/public/app/package.json
   last_updated_by: Mike P. Sinn
   last_updated_on: 2022-11-24 04:05:52.000000000 Z
 - name: bluebird
@@ -1146,7 +1146,7 @@ tools:
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15866/default_01b1499f31f2eff6ed744a57b056e181400df5b2.png
   detection_source_url: apps/api-gateway/package-lock.json
-  detection_source: apps/dfda-1/public/app/package.json
+  detection_source: apps/fdai/public/app/package.json
   last_updated_by: Mike P. Sinn
   last_updated_on: 2022-11-24 04:05:52.000000000 Z
 - name: body-parser
@@ -1160,7 +1160,7 @@ tools:
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15906/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
   detection_source_url: apps/api-gateway/package-lock.json
-  detection_source: apps/dfda-1/public/app/package.json
+  detection_source: apps/fdai/public/app/package.json
   last_updated_by: Mike P. Sinn
   last_updated_on: 2022-11-24 04:05:52.000000000 Z
 - name: bootstrap-sass
@@ -1173,8 +1173,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16915/default_e65289f03a07faa8d49ce16c483f18c4f8a98db9.png
-  detection_source_url: apps/dfda-1/package-lock.json
-  detection_source: apps/dfda-1/package.json
+  detection_source_url: apps/fdai/package-lock.json
+  detection_source: apps/fdai/package.json
   last_updated_by: Mike P. Sinn
   last_updated_on: 2023-03-31 00:02:07.000000000 Z
 - name: browser-sync
@@ -1187,8 +1187,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16034/default_a9b6ac3c2fe43713f9a8e43d4668d0352ad0d247.png
-  detection_source_url: apps/dfda-1/package-lock.json
-  detection_source: apps/dfda-1/package.json
+  detection_source_url: apps/fdai/package-lock.json
+  detection_source: apps/fdai/package.json
   last_updated_by: Mike P. Sinn
   last_updated_on: 2023-03-31 00:02:07.000000000 Z
 - name: browser-sync-webpack-plugin
@@ -1201,8 +1201,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18027/default_7826192e433c1035ad42082e7f65b825c34bb056.png
-  detection_source_url: apps/dfda-1/package-lock.json
-  detection_source: apps/dfda-1/package.json
+  detection_source_url: apps/fdai/package-lock.json
+  detection_source: apps/fdai/package.json
   last_updated_by: Mike P. Sinn
   last_updated_on: 2023-03-31 00:02:07.000000000 Z
 - name: canvas
@@ -1215,7 +1215,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16664/default_783b9b6c17b863f264c1418b0eb831316f741afd.png
-  detection_source_url: apps/dfda-1/public/app/yarn.lock
+  detection_source_url: apps/fdai/public/app/yarn.lock
   detection_source: package.json
   last_updated_by: Mike P. Sinn
   last_updated_on: 2023-03-31 00:02:07.000000000 Z
@@ -1229,8 +1229,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18569/default_97159830e48e1fdb988d5f732a30fd9fb26a96c0.png
-  detection_source_url: apps/dfda-1/public/app/routes/passport-quantimodo-oauth2/package.json
-  detection_source: apps/dfda-1/public/app/routes/passport-quantimodo-oauth2/package.json
+  detection_source_url: apps/fdai/public/app/routes/passport-quantimodo-oauth2/package.json
+  detection_source: apps/fdai/public/app/routes/passport-quantimodo-oauth2/package.json
   last_updated_by: Mike P. Sinn
   last_updated_on: 2023-03-31 00:02:07.000000000 Z
 - name: cheerio
@@ -1243,8 +1243,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15949/default_54b691c123fc8979741e800e4dcd3936c0f3b246.png
-  detection_source_url: apps/dfda-1/public/app/yarn.lock
-  detection_source: apps/dfda-1/public/app/package.json
+  detection_source_url: apps/fdai/public/app/yarn.lock
+  detection_source: apps/fdai/public/app/package.json
   last_updated_by: Mike P. Sinn
   last_updated_on: 2023-03-31 00:02:07.000000000 Z
 - name: connect-flash
@@ -1258,7 +1258,7 @@ tools:
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17693/default_148ef251371a47f69a7acad9f3b25e2ec2ee4aa4.png
   detection_source_url: apps/api-gateway/package-lock.json
-  detection_source: apps/dfda-1/public/app/package.json
+  detection_source: apps/fdai/public/app/package.json
   last_updated_by: Mike P. Sinn
   last_updated_on: 2022-11-24 04:05:52.000000000 Z
 - name: cookie-parser
@@ -1272,7 +1272,7 @@ tools:
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16136/default_def3edb85d7fbd20200a5cd7d0a1679e31bc8b3d.png
   detection_source_url: apps/api-gateway/package-lock.json
-  detection_source: apps/dfda-1/public/app/package.json
+  detection_source: apps/fdai/public/app/package.json
   last_updated_by: Mike P. Sinn
   last_updated_on: 2022-11-24 04:05:52.000000000 Z
 - name: cookie-session
@@ -1285,8 +1285,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17669/default_4ba4cce198b4498f328ca26971f69b03cf49892a.png
-  detection_source_url: apps/dfda-1/public/app/yarn.lock
-  detection_source: apps/dfda-1/public/app/package.json
+  detection_source_url: apps/fdai/public/app/yarn.lock
+  detection_source: apps/fdai/public/app/package.json
   last_updated_by: Mike P. Sinn
   last_updated_on: 2023-03-31 00:02:07.000000000 Z
 - name: core-js
@@ -1299,7 +1299,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15869/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
-  detection_source_url: apps/dfda-1/package-lock.json
+  detection_source_url: apps/fdai/package-lock.json
   detection_source: package.json
   last_updated_by: Mike P. Sinn
   last_updated_on: 2023-03-31 00:02:07.000000000 Z
@@ -1314,7 +1314,7 @@ tools:
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16165/default_41f04716a804e853d5c38a5b81ee0ea8a842ad82.png
   detection_source_url: apps/api-gateway/package-lock.json
-  detection_source: apps/dfda-1/public/app/package.json
+  detection_source: apps/fdai/public/app/package.json
   last_updated_by: Mike P. Sinn
   last_updated_on: 2022-11-24 04:05:52.000000000 Z
 - name: cross-env
@@ -1327,8 +1327,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15828/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
-  detection_source_url: apps/dfda-1/package-lock.json
-  detection_source: apps/dfda-1/public/app/package.json
+  detection_source_url: apps/fdai/package-lock.json
+  detection_source: apps/fdai/public/app/package.json
   last_updated_by: Mike P. Sinn
   last_updated_on: 2023-03-31 00:02:07.000000000 Z
 - name: debug
@@ -1342,7 +1342,7 @@ tools:
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15852/default_a2f722724df977d0f7752839e5d8845ab41f69d5.png
   detection_source_url: apps/api-gateway/package-lock.json
-  detection_source: apps/dfda-1/public/app/package.json
+  detection_source: apps/fdai/public/app/package.json
   last_updated_by: Mike P. Sinn
   last_updated_on: 2022-11-24 04:05:52.000000000 Z
 - name: ejs
@@ -1355,8 +1355,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16045/default_a9b6ac3c2fe43713f9a8e43d4668d0352ad0d247.png
-  detection_source_url: apps/dfda-1/public/app/yarn.lock
-  detection_source: apps/dfda-1/public/app/package.json
+  detection_source_url: apps/fdai/public/app/yarn.lock
+  detection_source: apps/fdai/public/app/package.json
   last_updated_by: Mike P. Sinn
   last_updated_on: 2023-03-31 00:02:07.000000000 Z
 - name: eslint-config-standard
@@ -1369,8 +1369,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15872/default_e4668902f8489350db9b0fb228523a571ef05b26.png
-  detection_source_url: apps/dfda-1/public/app/yarn.lock
-  detection_source: apps/dfda-1/public/app/package.json
+  detection_source_url: apps/fdai/public/app/yarn.lock
+  detection_source: apps/fdai/public/app/package.json
   last_updated_by: Mike P. Sinn
   last_updated_on: 2023-03-31 00:02:07.000000000 Z
 - name: eslint-plugin-cypress
@@ -1383,7 +1383,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18548/default_0998c3a5bd64540d478b8f189bd9d22c3c17b6a0.png
-  detection_source_url: apps/dfda-1/package-lock.json
+  detection_source_url: apps/fdai/package-lock.json
   detection_source: package.json
   last_updated_by: Mike P. Sinn
   last_updated_on: 2023-03-31 00:02:07.000000000 Z
@@ -1425,8 +1425,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16194/default_fef27d1523ac1844fc00e83e47bddd8898ff8a89.png
-  detection_source_url: apps/dfda-1/public/app/yarn.lock
-  detection_source: apps/dfda-1/public/app/package.json
+  detection_source_url: apps/fdai/public/app/yarn.lock
+  detection_source: apps/fdai/public/app/package.json
   last_updated_by: Mike P. Sinn
   last_updated_on: 2023-03-31 00:02:07.000000000 Z
 - name: eslint-plugin-react
@@ -1467,8 +1467,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16029/default_261820f5687b4c88a3e8f95c71b5e8dccd34c1d7.png
-  detection_source_url: apps/dfda-1/public/app/yarn.lock
-  detection_source: apps/dfda-1/public/app/package.json
+  detection_source_url: apps/fdai/public/app/yarn.lock
+  detection_source: apps/fdai/public/app/package.json
   last_updated_by: Mike P. Sinn
   last_updated_on: 2023-03-31 00:02:07.000000000 Z
 - name: express
@@ -1482,7 +1482,7 @@ tools:
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15818/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
   detection_source_url: apps/api-gateway/package-lock.json
-  detection_source: apps/dfda-1/public/app/package.json
+  detection_source: apps/fdai/public/app/package.json
   last_updated_by: Mike P. Sinn
   last_updated_on: 2023-02-14 15:12:17.000000000 Z
 - name: express-http-proxy
@@ -1496,7 +1496,7 @@ tools:
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17790/default_4abbbb1663b193d95865c2654f54451ecf61930b.png
   detection_source_url: apps/api-gateway/package-lock.json
-  detection_source: apps/dfda-1/public/app/package.json
+  detection_source: apps/fdai/public/app/package.json
   last_updated_by: Mike P. Sinn
   last_updated_on: 2023-02-14 15:12:17.000000000 Z
 - name: express-session
@@ -1510,7 +1510,7 @@ tools:
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16239/default_180418c6fa6cdb8f7a3500f84a8fedb884fcb3fa.png
   detection_source_url: apps/api-gateway/package-lock.json
-  detection_source: apps/dfda-1/public/app/package.json
+  detection_source: apps/fdai/public/app/package.json
   last_updated_by: Mike P. Sinn
   last_updated_on: 2023-02-14 15:12:17.000000000 Z
 - name: fast-glob
@@ -1537,8 +1537,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16415/default_aa91da3cee4d961f0eea8ca5de77f399ec7ec794.png
-  detection_source_url: apps/dfda-1/package-lock.json
-  detection_source: apps/dfda-1/public/app/package.json
+  detection_source_url: apps/fdai/package-lock.json
+  detection_source: apps/fdai/public/app/package.json
   last_updated_by: Mike P. Sinn
   last_updated_on: 2023-03-31 00:02:07.000000000 Z
 - name: fs-extra
@@ -1552,8 +1552,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15836/default_b71c906aeda030a5e2f1fe40bf12a93be52404ab.png
-  detection_source_url: apps/dfda-1/package-lock.json
-  detection_source: apps/dfda-1/public/app/package.json
+  detection_source_url: apps/fdai/package-lock.json
+  detection_source: apps/fdai/public/app/package.json
   last_updated_by: Mike P. Sinn
   last_updated_on: 2023-03-31 00:02:07.000000000 Z
 - name: istanbul
@@ -1568,8 +1568,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15833/default_5e5e8ac63beda29f31f1844df64d4b8247570a66.png
-  detection_source_url: apps/dfda-1/public/app/routes/passport-quantimodo-oauth2/package.json
-  detection_source: apps/dfda-1/public/app/routes/passport-quantimodo-oauth2/package.json
+  detection_source_url: apps/fdai/public/app/routes/passport-quantimodo-oauth2/package.json
+  detection_source: apps/fdai/public/app/routes/passport-quantimodo-oauth2/package.json
   last_updated_by: Mike P. Sinn
   last_updated_on: 2023-03-31 00:02:07.000000000 Z
 - name: jest-environment-jsdom
@@ -1596,8 +1596,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16340/default_17385ab3aa01d4c295c08d4a9736140df691c5e9.png
-  detection_source_url: apps/dfda-1/public/app/yarn.lock
-  detection_source: apps/dfda-1/public/app/package.json
+  detection_source_url: apps/fdai/public/app/yarn.lock
+  detection_source: apps/fdai/public/app/package.json
   last_updated_by: Mike P. Sinn
   last_updated_on: 2023-03-31 00:02:07.000000000 Z
 - name: json2csv
@@ -1624,7 +1624,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17138/default_37d9ccc57ae4d32e7ff46614e4f8bb2c4ddc7964.png
-  detection_source_url: apps/dfda-1/public/app/yarn.lock
+  detection_source_url: apps/fdai/public/app/yarn.lock
   detection_source: package.json
   last_updated_by: Mike P. Sinn
   last_updated_on: 2023-03-31 00:02:07.000000000 Z
@@ -1652,8 +1652,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16739/default_ee69dab268e6a52104564fd4259549f5b48a25d4.png
-  detection_source_url: apps/dfda-1/package-lock.json
-  detection_source: apps/dfda-1/public/app/package.json
+  detection_source_url: apps/fdai/package-lock.json
+  detection_source: apps/fdai/public/app/package.json
   last_updated_by: Mike P. Sinn
   last_updated_on: 2023-03-31 00:02:07.000000000 Z
 - name: mochawesome
@@ -1666,8 +1666,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17128/default_5b9eca95ab3651165eb280ed5e0bc9a9382ad24d.png
-  detection_source_url: apps/dfda-1/package-lock.json
-  detection_source: apps/dfda-1/public/app/package.json
+  detection_source_url: apps/fdai/package-lock.json
+  detection_source: apps/fdai/public/app/package.json
   last_updated_by: Mike P. Sinn
   last_updated_on: 2023-03-31 00:02:07.000000000 Z
 - name: moment
@@ -1681,7 +1681,7 @@ tools:
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15847/default_4479dbac220be99e50e724b2df6cf415241d71fd.png
   detection_source_url: apps/api-gateway/package-lock.json
-  detection_source: apps/dfda-1/package.json
+  detection_source: apps/fdai/package.json
   last_updated_by: Mike P. Sinn
   last_updated_on: 2023-03-31 00:02:07.000000000 Z
 - name: moment-timezone
@@ -1695,7 +1695,7 @@ tools:
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16298/default_8b65a873fd3277d73483d6846fa38192391abf23.png
   detection_source_url: apps/api-gateway/package-lock.json
-  detection_source: apps/dfda-1/public/app/package.json
+  detection_source: apps/fdai/public/app/package.json
   last_updated_by: Mike P. Sinn
   last_updated_on: 2023-03-31 00:02:07.000000000 Z
 - name: morgan
@@ -1709,7 +1709,7 @@ tools:
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16097/default_c7b204838197013798409fa2b4dafce450edc7fb.png
   detection_source_url: apps/api-gateway/package-lock.json
-  detection_source: apps/dfda-1/public/app/package.json
+  detection_source: apps/fdai/public/app/package.json
   last_updated_by: Mike P. Sinn
   last_updated_on: 2022-10-18 13:51:21.000000000 Z
 - name: node-fetch
@@ -1723,7 +1723,7 @@ tools:
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15978/default_f49d4c116f8ea0155f4d92673b084378bba02760.png
   detection_source_url: apps/api-gateway/package-lock.json
-  detection_source: apps/dfda-1/public/app/package.json
+  detection_source: apps/fdai/public/app/package.json
   last_updated_by: Mike P. Sinn
   last_updated_on: 2022-11-26 10:57:08.000000000 Z
 - name: npm-run-all
@@ -1736,8 +1736,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15926/default_b45165a5d30e541ab11711a34a78209b3e8ed7fd.png
-  detection_source_url: apps/dfda-1/package-lock.json
-  detection_source: apps/dfda-1/public/app/package.json
+  detection_source_url: apps/fdai/package-lock.json
+  detection_source: apps/fdai/public/app/package.json
   last_updated_by: Mike P. Sinn
   last_updated_on: 2023-03-31 00:02:07.000000000 Z
 - name: passport
@@ -1751,7 +1751,7 @@ tools:
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16304/default_1baba0e6ece19a38adfb211f686c83c781ff703a.png
   detection_source_url: apps/api-gateway/package-lock.json
-  detection_source: apps/dfda-1/public/app/package.json
+  detection_source: apps/fdai/public/app/package.json
   last_updated_by: Mike P. Sinn
   last_updated_on: 2023-02-14 15:12:17.000000000 Z
   vulnerabilities:
@@ -1772,7 +1772,7 @@ tools:
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17972/default_5cd4226daecf35530a193ea8bd553edbe0c69ed1.png
   detection_source_url: apps/api-gateway/package-lock.json
-  detection_source: apps/dfda-1/public/app/package.json
+  detection_source: apps/fdai/public/app/package.json
   last_updated_by: Mike P. Sinn
   last_updated_on: 2023-02-14 15:12:17.000000000 Z
 - name: passport-local
@@ -1786,7 +1786,7 @@ tools:
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16747/default_adce7cef6d131ffc31466624541462e4db9534d4.png
   detection_source_url: apps/api-gateway/package-lock.json
-  detection_source: apps/dfda-1/public/app/package.json
+  detection_source: apps/fdai/public/app/package.json
   last_updated_by: Mike P. Sinn
   last_updated_on: 2023-02-14 15:12:17.000000000 Z
 - name: passport-oauth2
@@ -1800,7 +1800,7 @@ tools:
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17962/default_72dbba22ca96f25f78f55f8ea5393222efca5494.png
   detection_source_url: apps/api-gateway/package-lock.json
-  detection_source: apps/dfda-1/public/app/routes/passport-quantimodo-oauth2/package.json
+  detection_source: apps/fdai/public/app/routes/passport-quantimodo-oauth2/package.json
   last_updated_by: Mike P. Sinn
   last_updated_on: 2023-03-31 00:02:07.000000000 Z
 - name: passport-twitter
@@ -1814,7 +1814,7 @@ tools:
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18746/default_a0c218dcb961fccae1cb03e431692daad86f7866.png
   detection_source_url: apps/api-gateway/package-lock.json
-  detection_source: apps/dfda-1/public/app/package.json
+  detection_source: apps/fdai/public/app/package.json
   last_updated_by: Mike P. Sinn
   last_updated_on: 2023-02-14 15:12:17.000000000 Z
 - name: popper.js
@@ -1827,8 +1827,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16357/default_c47f6a56d74fae4d4404d77067b2fa35da6f1924.png
-  detection_source_url: apps/dfda-1/package-lock.json
-  detection_source: apps/dfda-1/package.json
+  detection_source_url: apps/fdai/package-lock.json
+  detection_source: apps/fdai/package.json
   last_updated_by: Mike P. Sinn
   last_updated_on: 2023-03-31 00:02:07.000000000 Z
 - name: postcss
@@ -1841,8 +1841,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16012/default_7a88bebb451873cc63bd99007de5bd3bb8ef85de.png
-  detection_source_url: apps/dfda-1/package-lock.json
-  detection_source: apps/dfda-1/package.json
+  detection_source_url: apps/fdai/package-lock.json
+  detection_source: apps/fdai/package.json
   last_updated_by: dependabot[bot]
   last_updated_on: 2023-11-15 19:03:44.000000000 Z
 - name: power-assert
@@ -1855,8 +1855,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16273/default_380ae3d73e22c7ca1f42b96479bcd0095dabc0d3.png
-  detection_source_url: apps/dfda-1/public/app/yarn.lock
-  detection_source: apps/dfda-1/public/app/package.json
+  detection_source_url: apps/fdai/public/app/yarn.lock
+  detection_source: apps/fdai/public/app/package.json
   last_updated_by: Mike P. Sinn
   last_updated_on: 2023-03-31 00:02:07.000000000 Z
 - name: q
@@ -1911,7 +1911,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16148/default_9a7a7dcd69c12c746dc4000dc4d1b75758079c9f.png
-  detection_source_url: apps/dfda-1/package-lock.json
+  detection_source_url: apps/fdai/package-lock.json
   detection_source: package.json
   last_updated_by: Mike P. Sinn
   last_updated_on: 2022-10-20 20:50:52.000000000 Z
@@ -1925,8 +1925,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16468/default_73c88a18b684e01cbdbf945631a40a44aff5a777.png
-  detection_source_url: apps/dfda-1/package-lock.json
-  detection_source: apps/dfda-1/package.json
+  detection_source_url: apps/fdai/package-lock.json
+  detection_source: apps/fdai/package.json
   last_updated_by: Mike P. Sinn
   last_updated_on: 2023-03-31 00:02:07.000000000 Z
 - name: rewire
@@ -1939,8 +1939,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16319/default_17385ab3aa01d4c295c08d4a9736140df691c5e9.png
-  detection_source_url: apps/dfda-1/public/app/yarn.lock
-  detection_source: apps/dfda-1/public/app/package.json
+  detection_source_url: apps/fdai/public/app/yarn.lock
+  detection_source: apps/fdai/public/app/package.json
   last_updated_by: Mike P. Sinn
   last_updated_on: 2023-03-31 00:02:07.000000000 Z
 - name: rimraf
@@ -1967,8 +1967,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16057/default_5fd43aeff4d6a935abc13737de01a0355210499d.png
-  detection_source_url: apps/dfda-1/package-lock.json
-  detection_source: apps/dfda-1/package.json
+  detection_source_url: apps/fdai/package-lock.json
+  detection_source: apps/fdai/package.json
   last_updated_by: Mike P. Sinn
   last_updated_on: 2023-03-31 00:02:07.000000000 Z
 - name: sass-loader
@@ -1981,8 +1981,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15842/default_b71c906aeda030a5e2f1fe40bf12a93be52404ab.png
-  detection_source_url: apps/dfda-1/package-lock.json
-  detection_source: apps/dfda-1/package.json
+  detection_source_url: apps/fdai/package-lock.json
+  detection_source: apps/fdai/package.json
   last_updated_by: Mike P. Sinn
   last_updated_on: 2023-03-31 00:02:07.000000000 Z
 - name: select2
@@ -1995,8 +1995,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17918/default_e0b07170ab7d7ea66954ff35fdeaae5255c4c0aa.png
-  detection_source_url: apps/dfda-1/package-lock.json
-  detection_source: apps/dfda-1/package.json
+  detection_source_url: apps/fdai/package-lock.json
+  detection_source: apps/fdai/package.json
   last_updated_by: Mike P. Sinn
   last_updated_on: 2023-03-31 00:02:07.000000000 Z
 - name: serve-favicon
@@ -2023,8 +2023,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16496/default_55f3303d620c93eecbee69c43373d484f2be492f.png
-  detection_source_url: apps/dfda-1/public/app/yarn.lock
-  detection_source: apps/dfda-1/public/app/package.json
+  detection_source_url: apps/fdai/public/app/yarn.lock
+  detection_source: apps/fdai/public/app/package.json
   last_updated_by: Mike P. Sinn
   last_updated_on: 2023-03-31 00:02:07.000000000 Z
 - name: simple-git
@@ -2037,8 +2037,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16567/default_d6ff16957d0b119d673d5ec0eb21b08d8d5008f4.png
-  detection_source_url: apps/dfda-1/public/app/yarn.lock
-  detection_source: apps/dfda-1/public/app/package.json
+  detection_source_url: apps/fdai/public/app/yarn.lock
+  detection_source: apps/fdai/public/app/package.json
   last_updated_by: dependabot[bot]
   last_updated_on: 2023-03-31 08:36:54.000000000 Z
   vulnerabilities:
@@ -2091,8 +2091,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16046/default_939338dc71400138c5e4a3464e041bf30f8f82ba.png
-  detection_source_url: apps/dfda-1/public/app/yarn.lock
-  detection_source: apps/dfda-1/public/app/package.json
+  detection_source_url: apps/fdai/public/app/yarn.lock
+  detection_source: apps/fdai/public/app/package.json
   last_updated_by: Mike P. Sinn
   last_updated_on: 2023-03-31 00:02:07.000000000 Z
 - name: sweetalert2
@@ -2105,8 +2105,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18093/image.png
-  detection_source_url: apps/dfda-1/package-lock.json
-  detection_source: apps/dfda-1/public/app/package.json
+  detection_source_url: apps/fdai/package-lock.json
+  detection_source: apps/fdai/public/app/package.json
   last_updated_by: Mike P. Sinn
   last_updated_on: 2023-03-31 00:02:07.000000000 Z
 - name: ts-jest
@@ -2134,8 +2134,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15938/default_e0a4fb1126d7400f419f0931cf1669947a5bc552.png
-  detection_source_url: apps/dfda-1/public/app/yarn.lock
-  detection_source: apps/dfda-1/public/app/package.json
+  detection_source_url: apps/fdai/public/app/yarn.lock
+  detection_source: apps/fdai/public/app/package.json
   last_updated_by: Mike P. Sinn
   last_updated_on: 2023-03-31 00:02:07.000000000 Z
 - name: ts-node
@@ -2148,7 +2148,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15830/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
-  detection_source_url: apps/dfda-1/public/app/yarn.lock
+  detection_source_url: apps/fdai/public/app/yarn.lock
   detection_source: package.json
   last_updated_by: Mike P. Sinn
   last_updated_on: 2023-07-28 05:37:21.000000000 Z
@@ -2162,7 +2162,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15853/default_97d4687bd07ff1bb963fd566c84e7cbf7c73bbee.png
-  detection_source_url: apps/dfda-1/package-lock.json
+  detection_source_url: apps/fdai/package-lock.json
   detection_source: package.json
   last_updated_by: Mike P. Sinn
   last_updated_on: 2023-02-14 15:12:17.000000000 Z
@@ -2190,8 +2190,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15844/default_b71c906aeda030a5e2f1fe40bf12a93be52404ab.png
-  detection_source_url: apps/dfda-1/package-lock.json
-  detection_source: apps/dfda-1/package.json
+  detection_source_url: apps/fdai/package-lock.json
+  detection_source: apps/fdai/package.json
   last_updated_by: Mike P. Sinn
   last_updated_on: 2023-03-31 00:02:07.000000000 Z
 - name: vue-loader
@@ -2204,8 +2204,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15901/default_3af1504b6f77c55205ba630fe08c472f43b95f6e.png
-  detection_source_url: apps/dfda-1/package-lock.json
-  detection_source: apps/dfda-1/package.json
+  detection_source_url: apps/fdai/package-lock.json
+  detection_source: apps/fdai/package.json
   last_updated_by: Mike P. Sinn
   last_updated_on: 2023-03-31 00:02:07.000000000 Z
 - name: yargs
@@ -2218,8 +2218,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15887/default_3af1504b6f77c55205ba630fe08c472f43b95f6e.png
-  detection_source_url: apps/dfda-1/package-lock.json
-  detection_source: apps/dfda-1/package.json
+  detection_source_url: apps/fdai/package-lock.json
+  detection_source: apps/fdai/package.json
   last_updated_by: Mike P. Sinn
   last_updated_on: 2023-03-31 00:02:07.000000000 Z
 - name: allure-framework/allure-phpunit
@@ -2231,8 +2231,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
-  detection_source_url: apps/dfda-1/composer.lock
-  detection_source: apps/dfda-1/composer.json
+  detection_source_url: apps/fdai/composer.lock
+  detection_source: apps/fdai/composer.json
   last_updated_by: Mike P. Sinn
   last_updated_on: 2023-03-31 00:02:07.000000000 Z
 - name: arrilot/laravel-widgets
@@ -2244,8 +2244,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
-  detection_source_url: apps/dfda-1/composer.lock
-  detection_source: apps/dfda-1/composer.json
+  detection_source_url: apps/fdai/composer.lock
+  detection_source: apps/fdai/composer.json
   last_updated_by: Mike P. Sinn
   last_updated_on: 2023-03-31 00:02:07.000000000 Z
 - name: barryvdh/laravel-debugbar
@@ -2257,8 +2257,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
-  detection_source_url: apps/dfda-1/composer.lock
-  detection_source: apps/dfda-1/composer.json
+  detection_source_url: apps/fdai/composer.lock
+  detection_source: apps/fdai/composer.json
   last_updated_by: Mike P. Sinn
   last_updated_on: 2023-03-31 00:02:07.000000000 Z
 - name: barryvdh/laravel-ide-helper
@@ -2270,8 +2270,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
-  detection_source_url: apps/dfda-1/composer.lock
-  detection_source: apps/dfda-1/composer.json
+  detection_source_url: apps/fdai/composer.lock
+  detection_source: apps/fdai/composer.json
   last_updated_by: Mike P. Sinn
   last_updated_on: 2023-03-31 00:02:07.000000000 Z
 - name: bshaffer/oauth2-server-php
@@ -2283,8 +2283,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
-  detection_source_url: apps/dfda-1/composer.lock
-  detection_source: apps/dfda-1/composer.json
+  detection_source_url: apps/fdai/composer.lock
+  detection_source: apps/fdai/composer.json
   last_updated_by: Mike P. Sinn
   last_updated_on: 2023-03-31 00:02:07.000000000 Z
 - name: bugsnag/bugsnag-laravel
@@ -2296,8 +2296,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
-  detection_source_url: apps/dfda-1/composer.lock
-  detection_source: apps/dfda-1/composer.json
+  detection_source_url: apps/fdai/composer.lock
+  detection_source: apps/fdai/composer.json
   last_updated_by: Mike P. Sinn
   last_updated_on: 2023-03-31 00:02:07.000000000 Z
 - name: cmfcmf/openweathermap-php-api
@@ -2309,8 +2309,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
-  detection_source_url: apps/dfda-1/composer.lock
-  detection_source: apps/dfda-1/composer.json
+  detection_source_url: apps/fdai/composer.lock
+  detection_source: apps/fdai/composer.json
   last_updated_by: Mike P. Sinn
   last_updated_on: 2023-03-31 00:02:07.000000000 Z
 - name: cviebrock/eloquent-sluggable
@@ -2322,8 +2322,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
-  detection_source_url: apps/dfda-1/composer.lock
-  detection_source: apps/dfda-1/composer.json
+  detection_source_url: apps/fdai/composer.lock
+  detection_source: apps/fdai/composer.json
   last_updated_by: Mike P. Sinn
   last_updated_on: 2023-03-31 00:02:07.000000000 Z
 - name: drewm/mailchimp-api
@@ -2335,8 +2335,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
-  detection_source_url: apps/dfda-1/composer.lock
-  detection_source: apps/dfda-1/composer.json
+  detection_source_url: apps/fdai/composer.lock
+  detection_source: apps/fdai/composer.json
   last_updated_by: Mike P. Sinn
   last_updated_on: 2023-03-31 00:02:07.000000000 Z
 - name: fabpot/goutte
@@ -2348,8 +2348,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
-  detection_source_url: apps/dfda-1/composer.lock
-  detection_source: apps/dfda-1/composer.json
+  detection_source_url: apps/fdai/composer.lock
+  detection_source: apps/fdai/composer.json
   last_updated_by: Mike P. Sinn
   last_updated_on: 2023-03-31 00:02:07.000000000 Z
 - name: facade/ignition
@@ -2361,8 +2361,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
-  detection_source_url: apps/dfda-1/composer.lock
-  detection_source: apps/dfda-1/composer.json
+  detection_source_url: apps/fdai/composer.lock
+  detection_source: apps/fdai/composer.json
   last_updated_by: Mike P. Sinn
   last_updated_on: 2023-03-31 00:02:07.000000000 Z
 - name: geoip2/geoip2
@@ -2374,8 +2374,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
-  detection_source_url: apps/dfda-1/composer.lock
-  detection_source: apps/dfda-1/composer.json
+  detection_source_url: apps/fdai/composer.lock
+  detection_source: apps/fdai/composer.json
   last_updated_by: Mike P. Sinn
   last_updated_on: 2023-03-31 00:02:07.000000000 Z
 - name: google/apiclient
@@ -2387,8 +2387,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
-  detection_source_url: apps/dfda-1/composer.lock
-  detection_source: apps/dfda-1/composer.json
+  detection_source_url: apps/fdai/composer.lock
+  detection_source: apps/fdai/composer.json
   last_updated_by: Mike P. Sinn
   last_updated_on: 2023-03-31 00:02:07.000000000 Z
 - name: gumlet/php-image-resize
@@ -2400,8 +2400,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
-  detection_source_url: apps/dfda-1/composer.lock
-  detection_source: apps/dfda-1/composer.json
+  detection_source_url: apps/fdai/composer.lock
+  detection_source: apps/fdai/composer.json
   last_updated_by: Mike P. Sinn
   last_updated_on: 2023-03-31 00:02:07.000000000 Z
 - name: guzzlehttp/guzzle
@@ -2413,8 +2413,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
-  detection_source_url: apps/dfda-1/composer.lock
-  detection_source: apps/dfda-1/composer.json
+  detection_source_url: apps/fdai/composer.lock
+  detection_source: apps/fdai/composer.json
   last_updated_by: Mike P. Sinn
   last_updated_on: 2023-03-31 00:02:07.000000000 Z
 - name: http-interop/http-factory-guzzle
@@ -2426,8 +2426,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
-  detection_source_url: apps/dfda-1/composer.lock
-  detection_source: apps/dfda-1/composer.json
+  detection_source_url: apps/fdai/composer.lock
+  detection_source: apps/fdai/composer.json
   last_updated_by: Mike P. Sinn
   last_updated_on: 2023-03-31 00:02:07.000000000 Z
 - name: infyomlabs/laravel-generator
@@ -2439,8 +2439,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
-  detection_source_url: apps/dfda-1/composer.lock
-  detection_source: apps/dfda-1/composer.json
+  detection_source_url: apps/fdai/composer.lock
+  detection_source: apps/fdai/composer.json
   last_updated_by: Mike P. Sinn
   last_updated_on: 2023-03-31 00:02:07.000000000 Z
 - name: itsgoingd/clockwork
@@ -2452,8 +2452,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
-  detection_source_url: apps/dfda-1/composer.lock
-  detection_source: apps/dfda-1/composer.json
+  detection_source_url: apps/fdai/composer.lock
+  detection_source: apps/fdai/composer.json
   last_updated_by: Mike P. Sinn
   last_updated_on: 2023-03-31 00:02:07.000000000 Z
 - name: jdorn/sql-formatter
@@ -2465,8 +2465,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
-  detection_source_url: apps/dfda-1/composer.lock
-  detection_source: apps/dfda-1/composer.json
+  detection_source_url: apps/fdai/composer.lock
+  detection_source: apps/fdai/composer.json
   last_updated_by: Mike P. Sinn
   last_updated_on: 2023-03-31 00:02:07.000000000 Z
 - name: johnkary/phpunit-speedtrap
@@ -2478,8 +2478,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
-  detection_source_url: apps/dfda-1/composer.lock
-  detection_source: apps/dfda-1/composer.json
+  detection_source_url: apps/fdai/composer.lock
+  detection_source: apps/fdai/composer.json
   last_updated_by: Mike P. Sinn
   last_updated_on: 2023-03-31 00:02:07.000000000 Z
 - name: knplabs/github-api
@@ -2491,8 +2491,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
-  detection_source_url: apps/dfda-1/composer.lock
-  detection_source: apps/dfda-1/composer.json
+  detection_source_url: apps/fdai/composer.lock
+  detection_source: apps/fdai/composer.json
   last_updated_by: Mike P. Sinn
   last_updated_on: 2023-03-31 00:02:07.000000000 Z
 - name: kornrunner/keccak
@@ -2504,8 +2504,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
-  detection_source_url: apps/dfda-1/composer.lock
-  detection_source: apps/dfda-1/composer.json
+  detection_source_url: apps/fdai/composer.lock
+  detection_source: apps/fdai/composer.json
   last_updated_by: Mike P. Sinn
   last_updated_on: 2023-03-31 00:02:07.000000000 Z
 - name: ktamas77/firebase-php
@@ -2517,8 +2517,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
-  detection_source_url: apps/dfda-1/composer.lock
-  detection_source: apps/dfda-1/composer.json
+  detection_source_url: apps/fdai/composer.lock
+  detection_source: apps/fdai/composer.json
   last_updated_by: Mike P. Sinn
   last_updated_on: 2023-03-31 00:02:07.000000000 Z
 - name: laravel/cashier
@@ -2530,8 +2530,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
-  detection_source_url: apps/dfda-1/composer.lock
-  detection_source: apps/dfda-1/composer.json
+  detection_source_url: apps/fdai/composer.lock
+  detection_source: apps/fdai/composer.json
   last_updated_by: Mike P. Sinn
   last_updated_on: 2023-03-31 00:02:07.000000000 Z
 - name: laravel/framework
@@ -2543,8 +2543,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
-  detection_source_url: apps/dfda-1/composer.lock
-  detection_source: apps/dfda-1/composer.json
+  detection_source_url: apps/fdai/composer.lock
+  detection_source: apps/fdai/composer.json
   last_updated_by: Mike P. Sinn
   last_updated_on: 2023-03-31 00:02:07.000000000 Z
 - name: laravel/passport
@@ -2556,8 +2556,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
-  detection_source_url: apps/dfda-1/composer.lock
-  detection_source: apps/dfda-1/composer.json
+  detection_source_url: apps/fdai/composer.lock
+  detection_source: apps/fdai/composer.json
   last_updated_by: Mike P. Sinn
   last_updated_on: 2023-03-31 00:02:07.000000000 Z
 - name: laravel/scout
@@ -2570,8 +2570,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
-  detection_source_url: apps/dfda-1/composer.lock
-  detection_source: apps/dfda-1/composer.json
+  detection_source_url: apps/fdai/composer.lock
+  detection_source: apps/fdai/composer.json
   last_updated_by: Mike P. Sinn
   last_updated_on: 2023-03-31 00:02:07.000000000 Z
 - name: laravel/slack-notification-channel
@@ -2583,8 +2583,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
-  detection_source_url: apps/dfda-1/composer.lock
-  detection_source: apps/dfda-1/composer.json
+  detection_source_url: apps/fdai/composer.lock
+  detection_source: apps/fdai/composer.json
   last_updated_by: Mike P. Sinn
   last_updated_on: 2023-03-31 00:02:07.000000000 Z
 - name: laravel/socialite
@@ -2596,8 +2596,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
-  detection_source_url: apps/dfda-1/composer.lock
-  detection_source: apps/dfda-1/composer.json
+  detection_source_url: apps/fdai/composer.lock
+  detection_source: apps/fdai/composer.json
   last_updated_by: Mike P. Sinn
   last_updated_on: 2023-03-31 00:02:07.000000000 Z
 - name: laravel/telescope
@@ -2609,8 +2609,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
-  detection_source_url: apps/dfda-1/composer.lock
-  detection_source: apps/dfda-1/composer.json
+  detection_source_url: apps/fdai/composer.lock
+  detection_source: apps/fdai/composer.json
   last_updated_by: Mike P. Sinn
   last_updated_on: 2023-03-31 00:02:07.000000000 Z
 - name: laravel/tinker
@@ -2622,8 +2622,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
-  detection_source_url: apps/dfda-1/composer.lock
-  detection_source: apps/dfda-1/composer.json
+  detection_source_url: apps/fdai/composer.lock
+  detection_source: apps/fdai/composer.json
   last_updated_by: Mike P. Sinn
   last_updated_on: 2023-03-31 00:02:07.000000000 Z
 - name: laravel/ui
@@ -2635,8 +2635,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
-  detection_source_url: apps/dfda-1/composer.lock
-  detection_source: apps/dfda-1/composer.json
+  detection_source_url: apps/fdai/composer.lock
+  detection_source: apps/fdai/composer.json
   last_updated_by: Mike P. Sinn
   last_updated_on: 2023-03-31 00:02:07.000000000 Z
 - name: league/flysystem-aws-s3-v3
@@ -2648,8 +2648,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
-  detection_source_url: apps/dfda-1/composer.lock
-  detection_source: apps/dfda-1/composer.json
+  detection_source_url: apps/fdai/composer.lock
+  detection_source: apps/fdai/composer.json
   last_updated_by: Mike P. Sinn
   last_updated_on: 2023-03-31 00:02:07.000000000 Z
 - name: lusitanian/oauth
@@ -2660,7 +2660,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
-  detection_source: apps/dfda-1/composer.json
+  detection_source: apps/fdai/composer.json
   last_updated_by: Mike P. Sinn
   last_updated_on: 2023-03-31 00:02:07.000000000 Z
 - name: maatwebsite/excel
@@ -2672,8 +2672,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
-  detection_source_url: apps/dfda-1/composer.lock
-  detection_source: apps/dfda-1/composer.json
+  detection_source_url: apps/fdai/composer.lock
+  detection_source: apps/fdai/composer.json
   last_updated_by: Mike P. Sinn
   last_updated_on: 2023-03-31 00:02:07.000000000 Z
 - name: maknz/slack
@@ -2686,8 +2686,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
-  detection_source_url: apps/dfda-1/composer.lock
-  detection_source: apps/dfda-1/composer.json
+  detection_source_url: apps/fdai/composer.lock
+  detection_source: apps/fdai/composer.json
   last_updated_by: Mike P. Sinn
   last_updated_on: 2023-03-31 00:02:07.000000000 Z
 - name: mockery/mockery
@@ -2699,8 +2699,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
-  detection_source_url: apps/dfda-1/composer.lock
-  detection_source: apps/dfda-1/composer.json
+  detection_source_url: apps/fdai/composer.lock
+  detection_source: apps/fdai/composer.json
   last_updated_by: Mike P. Sinn
   last_updated_on: 2023-03-31 00:02:07.000000000 Z
 - name: mpdf/mpdf
@@ -2712,8 +2712,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
-  detection_source_url: apps/dfda-1/composer.lock
-  detection_source: apps/dfda-1/composer.json
+  detection_source_url: apps/fdai/composer.lock
+  detection_source: apps/fdai/composer.json
   last_updated_by: Mike P. Sinn
   last_updated_on: 2023-03-31 00:02:07.000000000 Z
 - name: nette/php-generator
@@ -2725,8 +2725,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
-  detection_source_url: apps/dfda-1/composer.lock
-  detection_source: apps/dfda-1/composer.json
+  detection_source_url: apps/fdai/composer.lock
+  detection_source: apps/fdai/composer.json
   last_updated_by: Mike P. Sinn
   last_updated_on: 2023-03-31 00:02:07.000000000 Z
 - name: nunomaduro/collision
@@ -2738,8 +2738,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
-  detection_source_url: apps/dfda-1/composer.lock
-  detection_source: apps/dfda-1/composer.json
+  detection_source_url: apps/fdai/composer.lock
+  detection_source: apps/fdai/composer.json
   last_updated_by: Mike P. Sinn
   last_updated_on: 2023-03-31 00:02:07.000000000 Z
 - name: orangehill/iseed
@@ -2752,8 +2752,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
-  detection_source_url: apps/dfda-1/composer.lock
-  detection_source: apps/dfda-1/composer.json
+  detection_source_url: apps/fdai/composer.lock
+  detection_source: apps/fdai/composer.json
   last_updated_by: Mike P. Sinn
   last_updated_on: 2023-03-31 00:02:07.000000000 Z
 - name: pelago/emogrifier
@@ -2765,8 +2765,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
-  detection_source_url: apps/dfda-1/composer.lock
-  detection_source: apps/dfda-1/composer.json
+  detection_source_url: apps/fdai/composer.lock
+  detection_source: apps/fdai/composer.json
   last_updated_by: Mike P. Sinn
   last_updated_on: 2023-03-31 00:02:07.000000000 Z
 - name: php-http/guzzle6-adapter
@@ -2778,8 +2778,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
-  detection_source_url: apps/dfda-1/composer.lock
-  detection_source: apps/dfda-1/composer.json
+  detection_source_url: apps/fdai/composer.lock
+  detection_source: apps/fdai/composer.json
   last_updated_by: Mike P. Sinn
   last_updated_on: 2023-03-31 00:02:07.000000000 Z
 - name: phpoffice/phpword
@@ -2792,8 +2792,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
-  detection_source_url: apps/dfda-1/composer.lock
-  detection_source: apps/dfda-1/composer.json
+  detection_source_url: apps/fdai/composer.lock
+  detection_source: apps/fdai/composer.json
   last_updated_by: Mike P. Sinn
   last_updated_on: 2023-03-31 00:02:07.000000000 Z
 - name: phpunit/phpunit
@@ -2805,8 +2805,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
-  detection_source_url: apps/dfda-1/composer.lock
-  detection_source: apps/dfda-1/composer.json
+  detection_source_url: apps/fdai/composer.lock
+  detection_source: apps/fdai/composer.json
   last_updated_by: Mike P. Sinn
   last_updated_on: 2023-03-31 00:02:07.000000000 Z
 - name: predis/predis
@@ -2818,8 +2818,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
-  detection_source_url: apps/dfda-1/composer.lock
-  detection_source: apps/dfda-1/composer.json
+  detection_source_url: apps/fdai/composer.lock
+  detection_source: apps/fdai/composer.json
   last_updated_by: Mike P. Sinn
   last_updated_on: 2023-03-31 00:02:07.000000000 Z
 - name: pusher/pusher-php-server
@@ -2831,8 +2831,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
-  detection_source_url: apps/dfda-1/composer.lock
-  detection_source: apps/dfda-1/composer.json
+  detection_source_url: apps/fdai/composer.lock
+  detection_source: apps/fdai/composer.json
   last_updated_by: Mike P. Sinn
   last_updated_on: 2023-03-31 00:02:07.000000000 Z
 - name: realrashid/sweet-alert
@@ -2845,8 +2845,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
-  detection_source_url: apps/dfda-1/composer.lock
-  detection_source: apps/dfda-1/composer.json
+  detection_source_url: apps/fdai/composer.lock
+  detection_source: apps/fdai/composer.json
   last_updated_by: Mike P. Sinn
   last_updated_on: 2023-03-31 00:02:07.000000000 Z
 - name: sebastian/diff
@@ -2858,8 +2858,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
-  detection_source_url: apps/dfda-1/composer.lock
-  detection_source: apps/dfda-1/composer.json
+  detection_source_url: apps/fdai/composer.lock
+  detection_source: apps/fdai/composer.json
   last_updated_by: Mike P. Sinn
   last_updated_on: 2023-03-31 00:02:07.000000000 Z
 - name: sendgrid/sendgrid
@@ -2872,8 +2872,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
-  detection_source_url: apps/dfda-1/composer.lock
-  detection_source: apps/dfda-1/composer.json
+  detection_source_url: apps/fdai/composer.lock
+  detection_source: apps/fdai/composer.json
   last_updated_by: Mike P. Sinn
   last_updated_on: 2023-03-31 00:02:07.000000000 Z
 - name: slim/slim
@@ -2885,7 +2885,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
-  detection_source: apps/dfda-1/composer.json
+  detection_source: apps/fdai/composer.json
   last_updated_by: Mike P. Sinn
   last_updated_on: 2023-03-31 00:02:07.000000000 Z
 - name: soundasleep/html2text
@@ -2897,8 +2897,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
-  detection_source_url: apps/dfda-1/composer.lock
-  detection_source: apps/dfda-1/composer.json
+  detection_source_url: apps/fdai/composer.lock
+  detection_source: apps/fdai/composer.json
   last_updated_by: Mike P. Sinn
   last_updated_on: 2023-03-31 00:02:07.000000000 Z
 - name: spatie/laravel-medialibrary
@@ -2910,8 +2910,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
-  detection_source_url: apps/dfda-1/composer.lock
-  detection_source: apps/dfda-1/composer.json
+  detection_source_url: apps/fdai/composer.lock
+  detection_source: apps/fdai/composer.json
   last_updated_by: Mike P. Sinn
   last_updated_on: 2023-03-31 00:02:07.000000000 Z
 - name: spatie/laravel-menu
@@ -2923,8 +2923,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
-  detection_source_url: apps/dfda-1/composer.lock
-  detection_source: apps/dfda-1/composer.json
+  detection_source_url: apps/fdai/composer.lock
+  detection_source: apps/fdai/composer.json
   last_updated_by: Mike P. Sinn
   last_updated_on: 2023-03-31 00:02:07.000000000 Z
 - name: spatie/laravel-responsecache
@@ -2936,8 +2936,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
-  detection_source_url: apps/dfda-1/composer.lock
-  detection_source: apps/dfda-1/composer.json
+  detection_source_url: apps/fdai/composer.lock
+  detection_source: apps/fdai/composer.json
   last_updated_by: Mike P. Sinn
   last_updated_on: 2023-03-31 00:02:07.000000000 Z
 - name: spatie/laravel-tags
@@ -2949,8 +2949,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
-  detection_source_url: apps/dfda-1/composer.lock
-  detection_source: apps/dfda-1/composer.json
+  detection_source_url: apps/fdai/composer.lock
+  detection_source: apps/fdai/composer.json
   last_updated_by: Mike P. Sinn
   last_updated_on: 2023-03-31 00:02:07.000000000 Z
 - name: tijsverkoyen/css-to-inline-styles
@@ -2963,8 +2963,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
-  detection_source_url: apps/dfda-1/composer.lock
-  detection_source: apps/dfda-1/composer.json
+  detection_source_url: apps/fdai/composer.lock
+  detection_source: apps/fdai/composer.json
   last_updated_by: Mike P. Sinn
   last_updated_on: 2023-03-31 00:02:07.000000000 Z
 - name: torann/geoip
@@ -2976,8 +2976,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
-  detection_source_url: apps/dfda-1/composer.lock
-  detection_source: apps/dfda-1/composer.json
+  detection_source_url: apps/fdai/composer.lock
+  detection_source: apps/fdai/composer.json
   last_updated_by: Mike P. Sinn
   last_updated_on: 2023-03-31 00:02:07.000000000 Z
 - name: watson/validating
@@ -2989,8 +2989,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
-  detection_source_url: apps/dfda-1/composer.lock
-  detection_source: apps/dfda-1/composer.json
+  detection_source_url: apps/fdai/composer.lock
+  detection_source: apps/fdai/composer.json
   last_updated_by: Mike P. Sinn
   last_updated_on: 2023-03-31 00:02:07.000000000 Z
 - name: yajra/laravel-datatables-buttons
@@ -3002,8 +3002,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
-  detection_source_url: apps/dfda-1/composer.lock
-  detection_source: apps/dfda-1/composer.json
+  detection_source_url: apps/fdai/composer.lock
+  detection_source: apps/fdai/composer.json
   last_updated_by: Mike P. Sinn
   last_updated_on: 2023-03-31 00:02:07.000000000 Z
 - name: yajra/laravel-datatables-editor
@@ -3015,8 +3015,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
-  detection_source_url: apps/dfda-1/composer.lock
-  detection_source: apps/dfda-1/composer.json
+  detection_source_url: apps/fdai/composer.lock
+  detection_source: apps/fdai/composer.json
   last_updated_by: Mike P. Sinn
   last_updated_on: 2023-03-31 00:02:07.000000000 Z
 - name: yajra/laravel-datatables-html
@@ -3028,8 +3028,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
-  detection_source_url: apps/dfda-1/composer.lock
-  detection_source: apps/dfda-1/composer.json
+  detection_source_url: apps/fdai/composer.lock
+  detection_source: apps/fdai/composer.json
   last_updated_by: Mike P. Sinn
   last_updated_on: 2023-03-31 00:02:07.000000000 Z
 - name: yajra/laravel-datatables-oracle
@@ -3041,8 +3041,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
-  detection_source_url: apps/dfda-1/composer.lock
-  detection_source: apps/dfda-1/composer.json
+  detection_source_url: apps/fdai/composer.lock
+  detection_source: apps/fdai/composer.json
   last_updated_by: Mike P. Sinn
   last_updated_on: 2023-03-31 00:02:07.000000000 Z
 - name: zircote/swagger-php
@@ -3055,7 +3055,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
-  detection_source_url: apps/dfda-1/composer.lock
-  detection_source: apps/dfda-1/composer.json
+  detection_source_url: apps/fdai/composer.lock
+  detection_source: apps/fdai/composer.json
   last_updated_by: Mike P. Sinn
   last_updated_on: 2023-03-31 00:02:07.000000000 Z

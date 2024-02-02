@@ -8,6 +8,6 @@ These are available on Android, iOS, and desktop browsers.
 
 ## Related Code
 
-- [Service Worker to Display Notifications](../../../apps/dfda-1/public/app/public/firebase-messaging-sw.js)
-- [Push Notification Data Model](/apps/dfda-1/app/Slim/Model/Notifications/PushNotificationData.php)
-- [Notification Sender Job](/apps/dfda-1/app/PhpUnitJobs/Reminders/PushNotificationsJob.php)
+- [Service Worker to Display Notifications](../../../apps/fdai/public/app/public/firebase-messaging-sw.js)
+- [Push Notification Data Model](//app/Slim/Model/Notifications/PushNotificationData.php)
+- [Notification Sender Job](//app/PhpUnitJobs/Reminders/PushNotificationsJob.php)

@@ -17,6 +17,6 @@ FDAi Gateway API Nodes make it easy for data silos, such as hospitals and digita
 
 ### Potential Implementations, Components or Inspiration
 
-There's a monolithic implementation of this in [apps/dfda-1](../../../apps/dfda-1).
+There's a monolithic implementation of this in [apps/dfda-1](../../../apps/fdai).
 
 Please make a pull request and add links to any other open-source projects that could better fulfill this role.
