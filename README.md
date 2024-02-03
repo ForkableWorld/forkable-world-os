@@ -1,6 +1,32 @@
-# 🤖 Forkable World 💊
+# The Operating System for Your Ideal World
+
+Imagine the world was an open-source operating system like Unix. 
+
+Imagine that anyone with a new idea for improving it or solving a problem, could simply fork the world, make their changes, and then submit a pull request to the main world repository.
+
+This project is an attempt to make that vision a reality.
 
 The Forkable World project is designed to help our institutions promote the general welfare through the principles of open-source software development and artificial intelligence. It contains applications and AI agents that support non-profit organizations and governments in their missions to create public goods and improve societal outcomes.
+
+### Goals
+
+The overarching goal of the Forkable World project is to demonstrate that governance, like software, can benefit from open-source principles, data-driven decision-making, and the innovative use of technology to serve public interests more effectively. It aims to foster a more participatory, transparent, and responsive model of governance that can adapt to the needs and challenges of modern societies.
+
+### Folder Details
+
+- `/users` should contain 8 billion folders, one for each person on the planet. Each folder should contain a `README.md` file with a brief bio, a list of their interests and skills. This will allow for easy collaboration and matchmaking between people with similar interests and skills.  It should also contain all information necessary to define an AI agent digital twin that represents their interests in the Forkable World.
+- `/groups` contains folders for countries, states, cities, businesses, non-profits, and more. Each folder should contain a `README.md` file with a brief bio, a list of their members. This will allow for easy collaboration and matchmaking between groups with similar interests and skills. Each group's folder should also contain all information necessary to define an AI agent digital twin that represents that institution's interests in the Forkable World.
+- `/apps` contains individual folders for each government department or function, such as the FDA, SEC, etc. Each 'app' functions as a standalone module with its own resources, but can share common utilities in the `/shared-libraries` folder.
+  - `/fdai` for gathering and analyzing information from individuals about food, drug intake, and symptoms.
+  - folders for other apps supporting other organizations or functions
+- `/shared-libraries` contains reusable libraries and utilities that can be imported by any app, promoting code reuse and reducing duplication. This could include data processing utilities, AI models, common web components, and more.
+- `/docs` Holds all the documentation related to the project, including:
+  - `/laws` for legal documentation and laws related to each department's function.
+  - `/guides` for how to contribute to the project, use the APIs, etc.
+  - `/api-docs` for detailed API documentation.
+- `/tools` contains scripts and tooling for building, deploying, and managing the applications, including custom scripts for database migrations, deployment automation, and other development operations tasks.
+
+
 
 ### Key Components
 
@@ -17,21 +43,6 @@ The Forkable World project is designed to help our institutions promote the gene
 - **Dynamic and Iterative Improvement:** Borrowing from software development practices, the Forkable World project advocates for governance to be a living system that evolves through iteration, feedback, and gradual rollouts of policy changes. This adaptive model contrasts with static governance structures, aiming instead for continual refinement and responsiveness to new information.
 
 - **AI and Autonomous Agents:** A significant part of the project involves coding much of governmental functions and services using AI and autonomous agents. This approach seeks to standardize procedures, reduce biases, and ensure that evidence-based public policy can be effectively analyzed and implemented.
-
-### Goals
-
-The overarching goal of the Forkable World project is to demonstrate that governance, like software, can benefit from open-source principles, data-driven decision-making, and the innovative use of technology to serve public interests more effectively. It aims to foster a more participatory, transparent, and responsive model of governance that can adapt to the needs and challenges of modern societies.
-
-### Project Structure
-- `/apps` contains individual folders for each government department or function, such as the FDA, SEC, etc. Each 'app' functions as a standalone module with its own resources, but can share common utilities and libraries.
-  - `/fdai` for gathering and analyzing information from individuals about food, drug intake, and symptoms.
-  - folders for other apps supporting other organizations or functions
-- `/libs` contains reusable libraries and utilities that can be imported by any app, promoting code reuse and reducing duplication. This could include data processing utilities, AI models, common web components, and more.
-- `/docs` Holds all the documentation related to the project, including:
-  - `/laws` for legal documentation and laws related to each department's function.
-  - `/guides` for how to contribute to the project, use the APIs, etc.
-  - `/api-docs` for detailed API documentation.
-- `/tools` contains scripts and tooling for building, deploying, and managing the applications, including custom scripts for database migrations, deployment automation, and other development operations tasks.
 
 ### Contributing
 
