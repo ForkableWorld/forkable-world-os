@@ -1,0 +1,13 @@
+{
+  "communication": {
+    "preferredMethod": "Email",
+    "availability": "Flexible, prefers scheduled meetings"
+  },
+  "collaboration": {
+    "preferredTools": ["Email", "Video Conferencing", "Collaborative Documents"]
+  },
+  "privacy": {
+    "profileVisibility": "Public",
+    "dataSharing": "Open for academic and research purposes"
+  }
+}

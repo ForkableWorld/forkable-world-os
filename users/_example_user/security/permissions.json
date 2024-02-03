@@ -1,0 +1,6 @@
+{
+  "accessControl": {
+    "read": ["public", "research_collaborators"],
+    "write": ["David_Pearce", "authorized_assistants"]
+  }
+}

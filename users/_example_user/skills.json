@@ -1,0 +1,16 @@
+{
+  "skills": [
+    {
+      "skill": "Philosophical Analysis",
+      "proficiency": "Expert"
+    },
+    {
+      "skill": "Public Speaking",
+      "proficiency": "Expert"
+    },
+    {
+      "skill": "Writing and Research",
+      "proficiency": "Expert"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "operationMode": "Assistive",
+  "learningPreferences": {
+    "feedbackLoop": "Active",
+    "dataSources": ["Ethical Philosophy Journals", "Consciousness Studies Conferences"]
+  },
+  "interactionModes": {
+    "directCommands": true,
+    "automatedResearch": true
+  }
+}

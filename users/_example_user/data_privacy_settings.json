@@ -1,0 +1,11 @@
+{
+  "shareable": {
+    "interests": true,
+    "skills": true,
+    "activityLog": true
+  },
+  "visibility": {
+    "profile": "Public",
+    "email": "Private"
+  }
+}
