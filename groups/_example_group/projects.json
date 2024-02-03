@@ -1,0 +1,15 @@
+{
+  "currentProjects": [
+    {
+      "name": "Ethical Guidelines for AI",
+      "description": "Developing a set of ethical guidelines for the development and implementation of AI technologies.",
+      "status": "In Progress"
+    },
+    {
+      "name": "Neurotech Advancement Initiative",
+      "description": "Supporting research into neurotechnologies that can enhance cognitive and sensory capabilities.",
+      "status": "In Progress"
+    }
+    // Additional projects can be listed here
+  ]
+}

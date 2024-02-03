@@ -1,0 +1,15 @@
+{
+  "members": [
+    {
+      "name": "David Pearce",
+      "role": "Co-founder",
+      "interests": ["Ethical Philosophy", "Consciousness Studies", "Neurotechnology"]
+    },
+    {
+      "name": "Nick Bostrom",
+      "role": "Former President",
+      "interests": ["Philosophical Aspects of Transhumanism", "Future of AI", "Existential Risks"]
+    }
+    // Additional members can be added here
+  ]
+}
