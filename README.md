@@ -1,4 +1,4 @@
-# The Operating System for Your Ideal World
+# The Operating System for an Ideal World
 
 Imagine the world was an open-source operating system like Unix. 
 
