@@ -1,3 +1,0 @@
-App\Listeners\LoginListener: Logging in quantimodo (1) from guard web with
-tests/SlimTests/Controllers/GetConnectorsTest-testGetConnectorsListV1-testGetConnec...
-App\Files\TestArtifacts\IsTestArtifactFile::saveIfLocal

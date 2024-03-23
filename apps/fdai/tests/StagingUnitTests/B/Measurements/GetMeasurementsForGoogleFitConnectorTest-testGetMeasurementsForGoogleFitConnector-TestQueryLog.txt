@@ -1,7 +1,0 @@
-╔════════════════════════╤══════════════════╤═════════════════════════════════════════════════════════════╗
-║ Caller                 │ Table            │ SQL                                                         ║
-╟────────────────────────┼──────────────────┼─────────────────────────────────────────────────────────────╢
-║ fromRequest            │ oa_access_tokens │ access_token='?' & deleted_at=null limit 1                  ║
-║ QMAccessToken::getUser │ wp_users         │ ID=230 & deleted_at=null limit 1                            ║
-║ getByRequest           │ measurements     │ connector_id='61' & user_id='230' & deleted_at=null orde... ║
-╚════════════════════════╧══════════════════╧═════════════════════════════════════════════════════════════╝

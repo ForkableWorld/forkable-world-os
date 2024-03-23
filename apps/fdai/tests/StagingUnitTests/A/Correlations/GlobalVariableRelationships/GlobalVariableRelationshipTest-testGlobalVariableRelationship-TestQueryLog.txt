@@ -1,7 +1,0 @@
-╔══════════════════════════╤══════════════════════╤═════════════════════════════════════════════════════════════╗
-║ Caller                   │ Table                │ SQL                                                         ║
-╟──────────────────────────┼──────────────────────┼─────────────────────────────────────────────────────────────╢
-║ findByVariableNamesOrIds │ aggregate_correlatio │ cause_variable_id=1248 & effect_variable_id=1398 & delet... ║
-║ findByVariableNamesOrIds │ variables            │ id=1248 & deleted_at=null limit 1                           ║
-║ findByVariableNamesOrIds │ variables            │ id=1398 & deleted_at=null limit 1                           ║
-╚══════════════════════════╧══════════════════════╧═════════════════════════════════════════════════════════════╝

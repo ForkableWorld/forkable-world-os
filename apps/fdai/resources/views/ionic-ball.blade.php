@@ -1,1 +1,0 @@
-{!! qm_integration_loader_and_options() !!}

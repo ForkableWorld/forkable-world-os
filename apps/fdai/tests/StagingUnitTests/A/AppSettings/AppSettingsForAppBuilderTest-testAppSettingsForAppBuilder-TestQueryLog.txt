@@ -1,8 +1,0 @@
-╔════════════════════════╤═══════════════╤═════════════════════════════════════════════════════════════╗
-║ Caller                 │ Table         │ SQL                                                         ║
-╟────────────────────────┼───────────────┼─────────────────────────────────────────────────────────────╢
-║ User::mike             │ wp_users      │ ID=230 & deleted_at=null limit 1                            ║
-║ setUserLoggedIn        │ sessions      │ delete id=? (Not preparing query because the fixtures ch... ║
-║ GetController::initGet │ collaborators │ user_id=230 & deleted_at=null                               ║
-║ GetController::initGet │ applications  │ id in (461, 567, 471, 581, 341, 1164, 481, 511, 541, 118... ║
-╚════════════════════════╧═══════════════╧═════════════════════════════════════════════════════════════╝

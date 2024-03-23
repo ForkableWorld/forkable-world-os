@@ -1,8 +1,0 @@
-╔═══════════════════════╤══════════════════╤═════════════════════════════════════════════════╗
-║ Caller                │ Table            │ SQL                                             ║
-╟───────────────────────┼──────────────────┼─────────────────────────────────────────────────╢
-║ findInMemoryCacheOrDB │ oa_access_tokens │ access_token='?' & deleted_at=null limit 1      ║
-║ findInMemoryCacheOrDB │ wp_users         │ ID=18535 & deleted_at=null limit 1              ║
-║ findByNameLikeOrId    │ wp_users         │ ID='72708' & ID=18535 & deleted_at=null limit 1 ║
-║ logoutFromLaravel     │ wp_users         │ set `remember_token` = '?' where `ID` = 18535   ║
-╚═══════════════════════╧══════════════════╧═════════════════════════════════════════════════╝

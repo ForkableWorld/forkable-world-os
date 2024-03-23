@@ -1,9 +1,0 @@
-╔════════════════╤══════════════════════╤═════════════════════════════════════════════════════════════╗
-║ Caller         │ Table                │ SQL                                                         ║
-╟────────────────┼──────────────────────┼─────────────────────────────────────────────────────────────╢
-║ updateOrCreate │ oa_authorization_cod │ (authorization_code='test_code') & deleted_at=null limit 1  ║
-║ updateOrCreate │ oa_authorization_cod │ insert ('test_code', '?', 18535, '?', '?', '?', '?')        ║
-║ loadSession    │ sessions             │ id=? limit 1 (Not preparing query because the fixtures c... ║
-║ saveSession    │ sessions             │ id=? limit 1 (Not preparing query because the fixtures c... ║
-║ saveSession    │ sessions             │ insert (?, ?, ?, ?, ?, ?) (Not preparing query because t... ║
-╚════════════════╧══════════════════════╧═════════════════════════════════════════════════════════════╝

@@ -1,8 +1,0 @@
-╔══════════════════════════════╤════════════════╤═════════════════════════════════════════════════════════════╗
-║ Caller                       │ Table          │ SQL                                                         ║
-╟──────────────────────────────┼────────────────┼─────────────────────────────────────────────────────────────╢
-║ getUserByUserNameAndPassword │ wp_users       │ user_login='testuser' & deleted_at=null limit 1             ║
-║ findByName                   │ variables      │ name LIKE '?' & deleted_at=null limit 1                     ║
-║ getDefault                   │ user_variables │ user_id=18535 & variable_id=1398 & deleted_at=null limit 1  ║
-║ getByRequest                 │ measurements   │ updated_at >= '0' & user_id='18535' & user_variable_id='... ║
-╚══════════════════════════════╧════════════════╧═════════════════════════════════════════════════════════════╝

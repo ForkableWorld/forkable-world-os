@@ -1,7 +1,0 @@
-<% if (!user) { %>
-	<h2>Welcome! Please log in.</h2>
-	<a href="/auth/quantimodo">Login with QuantiModo</a>
-<% } else { %>
-	<h2>Hello, <%= user.user_login %>.</h2>
-	<pre><code><%= JSON.stringify(user, null, 2) %></code></pre>
-<% } %>

@@ -1,8 +1,0 @@
-╔═══════════════════════════════╤═════════════════════╤═════════════════════════════════════════╗
-║ Caller                        │ Table               │ SQL                                     ║
-╟───────────────────────────────┼─────────────────────┼─────────────────────────────────────────╢
-║ User::demo                    │ wp_users            │ ID=1 & deleted_at=null limit 1          ║
-║ findByClientId                │ applications        │ client_id='?' & deleted_at=null limit 1 ║
-║ setQMConnectors               │ connections         │ user_id in (1) & deleted_at=null        ║
-║ getMostRecentImportRequest... │ measurement_imports │ user_id=1 order by created_at asc       ║
-╚═══════════════════════════════╧═════════════════════╧═════════════════════════════════════════╝

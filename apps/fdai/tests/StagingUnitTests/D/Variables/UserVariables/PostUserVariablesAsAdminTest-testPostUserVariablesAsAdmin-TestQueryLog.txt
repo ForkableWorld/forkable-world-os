@@ -1,8 +1,0 @@
-╔════════════════════════╤══════════════════╤════════════════════════════════════════════════════════════╗
-║ Caller                 │ Table            │ SQL                                                        ║
-╟────────────────────────┼──────────────────┼────────────────────────────────────────────────────────────╢
-║ fromRequest            │ oa_access_tokens │ access_token='?' & deleted_at=null limit 1                 ║
-║ QMAccessToken::getUser │ wp_users         │ ID=230 & deleted_at=null limit 1                           ║
-║ findByData             │ variables        │ id=1449 & deleted_at=null limit 1                          ║
-║ findInMemoryOrDBWhere  │ user_variables   │ (user_id=230 & variable_id=1449) & deleted_at=null limit 1 ║
-╚════════════════════════╧══════════════════╧════════════════════════════════════════════════════════════╝

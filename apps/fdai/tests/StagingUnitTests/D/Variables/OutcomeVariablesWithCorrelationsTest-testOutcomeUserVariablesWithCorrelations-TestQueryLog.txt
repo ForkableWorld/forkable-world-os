@@ -1,9 +1,0 @@
-╔══════════════════╤══════════════════╤═════════════════════════════════════════════════════════════╗
-║ Caller           │ Table            │ SQL                                                         ║
-╟──────────────────┼──────────────────┼─────────────────────────────────────────────────────────────╢
-║ getAdminUser     │ wp_users         │ roles LIKE '?' & deleted_at=null limit 1                    ║
-║ firstOrCreate    │ oa_access_tokens │ (access_token='?') & deleted_at=null limit 1                ║
-║ getUserVariables │ variables        │ user_variables.deleted_at=null & user_variables.user_id=... ║
-║ getUserVariables │ user_variables   │ id in (24750, 24658, 24713, 24814, 25428, 25083, 47840, ... ║
-║ getUserVariables │ variables        │ id in (1251, 1272, 1273, 1306, 1335, 1342, 1344, 1398, 1... ║
-╚══════════════════╧══════════════════╧═════════════════════════════════════════════════════════════╝

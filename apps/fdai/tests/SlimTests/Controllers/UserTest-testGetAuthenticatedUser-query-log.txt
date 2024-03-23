@@ -1,9 +1,0 @@
-╔═════════════════════════╤══════════════════════╤═════════════════════════════════════════════════════════════╗
-║ Caller                  │ Table                │ SQL                                                         ║
-╟─────────────────────────┼──────────────────────┼─────────────────────────────────────────────────────────────╢
-║ updateUserMetaAdmin     │ wp_usermeta          │ delete meta_value like "%administrator%" & user_id <> 230   ║
-║ QMUser::findInDB        │ wp_users             │ ID=1 & deleted_at=null limit 1                              ║
-║ getAllForUser           │ oauth_access_tokens  │ user_id=1 & expires > '?' group by client_id, scope         ║
-║ getOrCreateToken        │ oauth_clients        │ client_id='?' & deleted_at=null limit 1                     ║
-║ getOrCreateRefreshToken │ oauth_refresh_tokens │ user_id=1 & client_id='?' & scope='?' & expires > '?' li... ║
-╚═════════════════════════╧══════════════════════╧═════════════════════════════════════════════════════════════╝

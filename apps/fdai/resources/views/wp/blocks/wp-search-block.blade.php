@@ -1,1 +1,0 @@
-<!-- wp:search {"label":"$searchBox","placeholder":"$searchPlaceHolder"} /-->

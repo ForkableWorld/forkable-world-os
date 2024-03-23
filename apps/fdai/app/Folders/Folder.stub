@@ -1,5 +1,0 @@
-<?php
-namespace App\Folders;
-class {{class_name}}Folder extends AbstractFolder {
-    public static function getRelativePath(): string{return "{{relative_path}}";}
-}

@@ -1,6 +1,0 @@
-[
-    "select * from `wp_users` where `wp_users`.`ID` = ? and `wp_users`.`deleted_at` is null limit 1",
-    "select * from `sessions` where `id` = ? limit 1",
-    "select count(*) as aggregate from (select * from `notifications` where `notifications`.`notifiable_id` = ? and `notifications`.`deleted_at` is null order by `notifications`.`updated_at` desc) count_row_table",
-    "select * from `notifications` where `notifications`.`notifiable_id` = ? and `notifications`.`deleted_at` is null order by `notifications`.`updated_at` desc"
-]

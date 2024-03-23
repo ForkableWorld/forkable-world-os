@@ -1,8 +1,0 @@
-╔══════════════════════════╤══════════════════════╤═════════════════════════════════════════════════════════════╗
-║ Caller                   │ Table                │ SQL                                                         ║
-╟──────────────────────────┼──────────────────────┼─────────────────────────────────────────────────────────────╢
-║ getGlobalVariableRelationships │ aggregate_correlatio │ deleted_at=null & evars.name LIKE '%Body Mass Index Or B... ║
-║ getGlobalVariableRelationships │ aggregate_correlatio │ deleted_at=null & evars.name LIKE '%Body Mass Index Or B... ║
-║ getGlobalVariableRelationships │ variables            │ id in (5955693, 1272, 1872) & deleted_at=null               ║
-║ findInMemoryCacheOrDB    │ wp_users             │ ID=12000 & deleted_at=null limit 1                          ║
-╚══════════════════════════╧══════════════════════╧═════════════════════════════════════════════════════════════╝

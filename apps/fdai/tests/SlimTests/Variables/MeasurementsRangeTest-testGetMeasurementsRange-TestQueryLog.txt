@@ -1,7 +1,0 @@
-╔══════════════════════════╤══════════════╤════════════════════════════════════════════════╗
-║ Caller                   │ Table        │ SQL                                            ║
-╟──────────────────────────┼──────────────┼────────────────────────────────────────────────╢
-║ testGetMeasurementsRange │ wp_users     │ ID=1 & deleted_at=null limit 1                 ║
-║ call_user_func_array     │ measurements │ user_id=1 & user_id=not null & deleted_at=null ║
-║ call_user_func_array     │ measurements │ user_id=1 & user_id=not null & deleted_at=null ║
-╚══════════════════════════╧══════════════╧════════════════════════════════════════════════╝

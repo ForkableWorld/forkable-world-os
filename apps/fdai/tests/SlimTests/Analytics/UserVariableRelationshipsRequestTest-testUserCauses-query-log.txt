@@ -1,9 +1,0 @@
-╔═════════════════════╤═════════════════════╤═════════════════════════════════════════════════════════════╗
-║ Caller              │ Table               │ SQL                                                         ║
-╟─────────────────────┼─────────────────────┼─────────────────────────────────────────────────────────────╢
-║ QMUser::findInDB    │ wp_users            │ ID=1 & deleted_at=null limit 1                              ║
-║ getAllForUser       │ oauth_access_tokens │ user_id=1 & expires > '?' group by client_id, scope         ║
-║ findByName          │ variables           │ name='?' & deleted_at=null limit 1                          ║
-║ findByName          │ variables           │ name='?' & deleted_at=null limit 1                          ║
-║ getUserVariableRelationships │ correlations        │ user_id=1 & effect_variable_id='1272' & deleted_at=null ... ║
-╚═════════════════════╧═════════════════════╧═════════════════════════════════════════════════════════════╝

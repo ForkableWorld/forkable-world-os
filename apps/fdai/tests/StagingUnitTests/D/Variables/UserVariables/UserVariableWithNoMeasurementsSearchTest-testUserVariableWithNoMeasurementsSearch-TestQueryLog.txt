@@ -1,8 +1,0 @@
-╔════════════════════════╤══════════════════╤════════════════════════════════════════════╗
-║ Caller                 │ Table            │ SQL                                        ║
-╟────────────────────────┼──────────────────┼────────────────────────────────────────────╢
-║ QMAccessToken::find    │ oa_access_tokens │ access_token='?' & deleted_at=null limit 1 ║
-║ QMAccessToken::getUser │ wp_users         │ ID=18535 & deleted_at=null limit 1         ║
-║ findByName             │ variables        │ name='Uncle Dee' & deleted_at=null limit 1 ║
-║ findByName             │ variables        │ name='Uncle Dee' & deleted_at=null limit 1 ║
-╚════════════════════════╧══════════════════╧════════════════════════════════════════════╝

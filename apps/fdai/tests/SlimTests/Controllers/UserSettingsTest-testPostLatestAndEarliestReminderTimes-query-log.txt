@@ -1,9 +1,0 @@
-╔═══════════════════════════════╤═════════════════════╤═════════════════════════════════════════════════════════════╗
-║ Caller                        │ Table               │ SQL                                                         ║
-╟───────────────────────────────┼─────────────────────┼─────────────────────────────────────────────────────────────╢
-║ QMUser::findInDB              │ wp_users            │ ID=1 & deleted_at=null limit 1                              ║
-║ getAllForUser                 │ oauth_access_tokens │ user_id=1 & expires > '?' group by client_id, scope         ║
-║ BaseModel::forceSave          │ wp_users            │ set `latest_reminder_time` = '02:00:00', `wp_users`.`upd... ║
-║ BaseModel::forceSave          │ wp_users            │ set `earliest_reminder_time` = '01:00:00', `wp_users`.`u... ║
-║ testPostLatestAndEarliestR... │ wp_users            │ select * from wp_users limit 1                              ║
-╚═══════════════════════════════╧═════════════════════╧═════════════════════════════════════════════════════════════╝

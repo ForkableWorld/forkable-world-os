@@ -1,7 +1,0 @@
-╔══════════════════════╤═══════════╤═════════════════════════════════════════════════════════════╗
-║ Caller               │ Table     │ SQL                                                         ║
-╟──────────────────────┼───────────┼─────────────────────────────────────────────────────────────╢
-║ setAuthenticatedUser │ wp_users  │ wp_users.ID=1 & wp_users.deleted_at=null limit 1            ║
-║ setUserLoggedIn      │ sessions  │ delete id=? (Not preparing query because the fixtures ch... ║
-║ findByName           │ variables │ name LIKE '?' & variables.deleted_at=null limit 1           ║
-╚══════════════════════╧═══════════╧═════════════════════════════════════════════════════════════╝

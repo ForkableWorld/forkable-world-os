@@ -1,7 +1,0 @@
-╔═══════════════════════════════╤═════════════════════╤═════════════════════════════════════════════════════════════╗
-║ Caller                        │ Table               │ SQL                                                         ║
-╟───────────────────────────────┼─────────────────────┼─────────────────────────────────────────────────────────────╢
-║ QMUser::findInDB              │ wp_users            │ ID=1 & deleted_at=null limit 1                              ║
-║ getAllForUser                 │ oauth_access_tokens │ user_id=1 & expires > '?' group by client_id, scope         ║
-║ getUserAndCommonVariablesF... │ variables           │ user_variables.deleted_at=null & user_variables.user_id=... ║
-╚═══════════════════════════════╧═════════════════════╧═════════════════════════════════════════════════════════════╝

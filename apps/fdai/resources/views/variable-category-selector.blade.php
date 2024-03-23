@@ -1,1 +1,0 @@
-{!! Form::select('country', \App\Models\VariableCategory::getNames(), $default, ['class' => 'form-control', 'id' => $id]) !!}
