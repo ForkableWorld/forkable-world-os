@@ -1,9 +1,0 @@
-[
-    "select * from `wp_users` where `wp_users`.`ID` = ? and `wp_users`.`deleted_at` is null limit 1",
-    "select * from `sessions` where `id` = ? limit 1",
-    "select count(*) as aggregate from (select * from `wp_users` where `wp_users`.`ID` in (?) and `wp_users`.`deleted_at` is null order by `wp_users`.`user_registered` desc) count_row_table",
-    "select * from `wp_users` where `wp_users`.`ID` in (?) and `wp_users`.`deleted_at` is null order by `wp_users`.`user_registered` desc limit 10 offset 0",
-    "select * from `cache` where `key` = ? limit 1",
-    "select * from `permissions`",
-    "insert into `cache` (`key`, `value`, `expiration`) values (?, ?, ?)"
-]

@@ -1,7 +1,0 @@
-╔═════════════════╤══════════════════╤═════════════════════════════════════════════════════════════╗
-║ Caller          │ Table            │ SQL                                                         ║
-╟─────────────────┼──────────────────┼─────────────────────────────────────────────────────────────╢
-║ getAdminUser    │ wp_users         │ roles LIKE '?' & deleted_at=null limit 1                    ║
-║ firstOrCreate   │ oa_access_tokens │ (access_token='?') & deleted_at=null limit 1                ║
-║ setUserLoggedIn │ sessions         │ delete id=? (Not preparing query because the fixtures ch... ║
-╚═════════════════╧══════════════════╧═════════════════════════════════════════════════════════════╝

@@ -1,9 +1,0 @@
-╔═════════════════╤═════════════╤═════════════════════════════════════════════════════════════╗
-║ Caller          │ Table       │ SQL                                                         ║
-╟─────────────────┼─────────────┼─────────────────────────────────────────────────────────────╢
-║ actAsTestUser   │ wp_users    │ ID=18535 & deleted_at=null limit 1                          ║
-║ loadSession     │ sessions    │ id=? limit 1 (Not preparing query because the fixtures c... ║
-║ setQMConnectors │ connections │ user_id in (18535) & deleted_at=null                        ║
-║ saveSession     │ sessions    │ id=? limit 1 (Not preparing query because the fixtures c... ║
-║ saveSession     │ sessions    │ insert (?, ?, ?, ?, ?, ?) (Not preparing query because t... ║
-╚═════════════════╧═════════════╧═════════════════════════════════════════════════════════════╝

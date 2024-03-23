@@ -1,9 +1,0 @@
-╔══════════════════════╤══════════════╤═════════════════════════════════════════════════════════════╗
-║ Caller               │ Table        │ SQL                                                         ║
-╟──────────────────────┼──────────────┼─────────────────────────────────────────────────────────────╢
-║ findByName           │ variables    │ name LIKE '?' & deleted_at=null limit 1                     ║
-║ setAuthenticatedUser │ wp_users     │ ID=1 & deleted_at=null limit 1                              ║
-║ setUserLoggedIn      │ sessions     │ delete id=? (Not preparing query because the fixtures ch... ║
-║ getByRequest         │ measurements │ user_id='1' & variable_category_id='3' & deleted_at=null... ║
-║ findByNameOrId       │ variables    │ id=94185 & deleted_at=null limit 1                          ║
-╚══════════════════════╧══════════════╧═════════════════════════════════════════════════════════════╝

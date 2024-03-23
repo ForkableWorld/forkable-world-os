@@ -1,8 +1,0 @@
-╔══════════════════════╤════════════════╤═════════════════════════════════════════════════════════════╗
-║ Caller               │ Table          │ SQL                                                         ║
-╟──────────────────────┼────────────────┼─────────────────────────────────────────────────────────────╢
-║ getAnyOldTestUser    │ wp_users       │ user_login like "%testuser%" & deleted_at=null order by ... ║
-║ findByName           │ variables      │ name='?' & deleted_at=null limit 1                          ║
-║ findByVariableId     │ user_variables │ variable_id=1398 & user_id=18535 & deleted_at=null limit 1  ║
-║ setAuthenticatedUser │ wp_users       │ ID=18535 & deleted_at=null limit 1                          ║
-╚══════════════════════╧════════════════╧═════════════════════════════════════════════════════════════╝

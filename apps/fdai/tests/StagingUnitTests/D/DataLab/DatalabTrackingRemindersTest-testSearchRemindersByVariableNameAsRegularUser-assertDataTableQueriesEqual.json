@@ -1,7 +1,0 @@
-[
-    "select * from `wp_users` where `wp_users`.`ID` = ? and `wp_users`.`deleted_at` is null limit 1",
-    "select * from `sessions` where `id` = ? limit 1",
-    "select count(*) as aggregate from (select * from `tracking_reminders` where `tracking_reminders`.`user_id` in (?) and `tracking_reminders`.`deleted_at` is null order by `tracking_reminders`.`updated_at` desc) count_row_table",
-    "select count(*) as aggregate from (select * from `tracking_reminders` where `tracking_reminders`.`user_id` in (?) and (exists (select * from `variables` where `tracking_reminders`.`variable_id` = `variables`.`id` and LOWER(`variables`.`name`) LIKE ? and `variables`.`deleted_at` is null) or LOWER(`tracking_reminders`.`instructions`) LIKE ? or LOWER(`tracking_reminders`.`image_url`) LIKE ?) and `tracking_reminders`.`deleted_at` is null order by `tracking_reminders`.`updated_at` desc) count_row_table",
-    "select * from `tracking_reminders` where `tracking_reminders`.`user_id` in (?) and (exists (select * from `variables` where `tracking_reminders`.`variable_id` = `variables`.`id` and LOWER(`variables`.`name`) LIKE ? and `variables`.`deleted_at` is null) or LOWER(`tracking_reminders`.`instructions`) LIKE ? or LOWER(`tracking_reminders`.`image_url`) LIKE ?) and `tracking_reminders`.`deleted_at` is null order by `tracking_reminders`.`updated_at` desc, `updated_at` desc limit 10 offset 0"
-]

@@ -1,9 +1,0 @@
-╔══════════════════════════╤══════════════════╤═════════════════════════════════════════════════════════════╗
-║ Caller                   │ Table            │ SQL                                                         ║
-╟──────────────────────────┼──────────────────┼─────────────────────────────────────────────────────────────╢
-║ fromRequest              │ oa_access_tokens │ access_token='?' & deleted_at=null limit 1                  ║
-║ QMAccessToken::getUser   │ wp_users         │ ID=18535 & deleted_at=null limit 1                          ║
-║ getUserVariablesSimple   │ variables        │ user_variables.deleted_at=null & user_variables.user_id=... ║
-║ getCommonVariablesSimple │ variables        │ name LIKE '%aspir%' & is_public=1 & number_of_aggregate_... ║
-║ getVariable              │ variables        │ id=5734741 & deleted_at=null limit 1                        ║
-╚══════════════════════════╧══════════════════╧═════════════════════════════════════════════════════════════╝

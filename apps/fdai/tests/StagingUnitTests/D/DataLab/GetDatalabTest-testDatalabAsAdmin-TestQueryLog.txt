@@ -1,8 +1,0 @@
-╔═════════════╤══════════╤═════════════════════════════════════════════════════════════╗
-║ Caller      │ Table    │ SQL                                                         ║
-╟─────────────┼──────────┼─────────────────────────────────────────────────────────────╢
-║ actAsAdmin  │ wp_users │ ID=230 & deleted_at=null limit 1                            ║
-║ loadSession │ sessions │ id=? limit 1 (Not preparing query because the fixtures c... ║
-║ saveSession │ sessions │ id=? limit 1 (Not preparing query because the fixtures c... ║
-║ saveSession │ sessions │ insert (?, ?, ?, ?, ?, ?) (Not preparing query because t... ║
-╚═════════════╧══════════╧═════════════════════════════════════════════════════════════╝

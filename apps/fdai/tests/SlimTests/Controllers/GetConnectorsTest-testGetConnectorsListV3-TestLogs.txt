@@ -1,5 +1,0 @@
-Logging out because: App\Storage\CacheManager::flushTestCache
-Logged out  from guard web and probably cycled remember token
-App\Listeners\LoginListener: Logging in quantimodo (1) from guard web with
-tests/SlimTests/Controllers/GetConnectorsTest-testGetConnectorsListV3-testGetConnec...
-App\Files\TestArtifacts\IsTestArtifactFile::saveIfLocal

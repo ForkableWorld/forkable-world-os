@@ -1,7 +1,0 @@
-<?php
-namespace App\Traits\PropertyTraits\MySqlTypeTraits;
-use App\Traits\PropertyTraits\{{php_type_trait}};
-trait {{mysql_type_trait}}
-{
-    use {{php_type_trait}};
-}

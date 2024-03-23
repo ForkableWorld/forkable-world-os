@@ -1,8 +1,0 @@
-╔═════════════════════════╤══════════╤═════════════════════════════════════════════════════════════╗
-║ Caller                  │ Table    │ SQL                                                         ║
-╟─────────────────────────┼──────────┼─────────────────────────────────────────────────────────────╢
-║ loadSession             │ sessions │ id=? limit 1 (Not preparing query because the fixtures c... ║
-║ StudiesController::show │ studies  │ id='?' & deleted_at=null limit 1                            ║
-║ saveSession             │ sessions │ id=? limit 1 (Not preparing query because the fixtures c... ║
-║ saveSession             │ sessions │ insert (?, ?, ?, ?, ?, ?) (Not preparing query because t... ║
-╚═════════════════════════╧══════════╧═════════════════════════════════════════════════════════════╝

@@ -1,8 +1,0 @@
-╔══════════════════════╤═══════════╤═════════════════════════════════════════════════════════════╗
-║ Caller               │ Table     │ SQL                                                         ║
-╟──────────────────────┼───────────┼─────────────────────────────────────────────────────────────╢
-║ setAuthenticatedUser │ wp_users  │ wp_users.ID=1 & wp_users.deleted_at=null limit 1            ║
-║ setUserLoggedIn      │ sessions  │ delete id=? (Not preparing query because the fixtures ch... ║
-║ QMQB::getIds         │ variables │ variables.is_public=1 & variables.deleted_at=null order ... ║
-║ getCommonVariables   │ variables │ variables.id in (1398, 1276, 1245, 88099, 1251, 1872, 12... ║
-╚══════════════════════╧═══════════╧═════════════════════════════════════════════════════════════╝

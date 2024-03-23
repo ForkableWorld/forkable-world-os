@@ -1,9 +1,0 @@
-[
-    "select * from `oa_access_tokens` where `oa_access_tokens`.`access_token` = ? and `oa_access_tokens`.`deleted_at` is null limit 1",
-    "select * from `wp_users` where `wp_users`.`ID` = ? and `wp_users`.`deleted_at` is null limit 1",
-    "select * from `wp_users` where `ID` = ? and `wp_users`.`deleted_at` is null limit 1",
-    "select count(*) as aggregate from (select * from `correlations` where `correlations`.`user_id` = ? and `correlations`.`deleted_at` is null order by `correlations`.`qm_score` desc) count_row_table",
-    "select * from `correlations` where `correlations`.`user_id` = ? and `correlations`.`deleted_at` is null order by `correlations`.`qm_score` desc limit 10 offset 0",
-    "select * from `variables` where `variables`.`id` in (1272, 1486, 5211821, 6054544, 6057041) and `variables`.`deleted_at` is null",
-    "select * from `variables` where `variables`.`id` in (1906, 5211821, 5872231, 6054544, 6057041) and `variables`.`deleted_at` is null"
-]

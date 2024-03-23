@@ -1,8 +1,0 @@
-╔═══════════════════════════════╤═════════════════════╤═════════════════════════════════════════════════════════════╗
-║ Caller                        │ Table               │ SQL                                                         ║
-╟───────────────────────────────┼─────────────────────┼─────────────────────────────────────────────────────────────╢
-║ setAuthenticatedUser          │ wp_users            │ wp_users.ID=1 & wp_users.deleted_at=null limit 1            ║
-║ setUserLoggedIn               │ sessions            │ delete id=? (Not preparing query because the fixtures ch... ║
-║ setQMConnectors               │ connections         │ connections.user_id in (1) & connections.deleted_at=null    ║
-║ getMostRecentImportRequest... │ measurement_imports │ user_id=1 order by created_at asc                           ║
-╚═══════════════════════════════╧═════════════════════╧═════════════════════════════════════════════════════════════╝
