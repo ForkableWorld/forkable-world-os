@@ -1,0 +1,17 @@
+{
+  "communication": {
+    "preferredMethod": ["Email", "LinkedIn"],
+    "availability": "Business hours, flexible for international calls"
+  },
+  "collaboration": {
+    "preferredTools": ["Email", "Video Conferencing", "Collaborative Documents", "Project Management Tools"]
+  },
+  "privacy": {
+    "profileVisibility": "Public",
+    "dataSharing": "Open for professional and research networking"
+  },
+  "networking": {
+    "interests": ["Healthcare Innovation", "Longevity Tech", "Impact Investing"],
+    "preferredEvents": ["Industry Conferences", "Innovation Forums", "Expert Panels"]
+  }
+} 

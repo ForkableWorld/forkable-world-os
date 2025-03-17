@@ -1,0 +1,14 @@
+{
+  "dataSharing": {
+    "publicProfile": true,
+    "contactInfo": "limited",
+    "professionalHistory": true,
+    "researchContributions": true
+  },
+  "notifications": {
+    "email": true,
+    "platform": true,
+    "newsletter": true
+  },
+  "dataRetention": "standard"
+} 
