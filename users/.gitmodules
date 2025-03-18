@@ -1,0 +1,10 @@
+[submodule "users/example"]
+	path = users/example
+	url = https://github.com/example/forkable-world-profile.git
+	branch = main
+
+# Users will add their submodules in this format:
+# [submodule "users/username"]
+#   path = users/username
+#   url = https://github.com/username/forkable-world-profile.git
+#   branch = main 

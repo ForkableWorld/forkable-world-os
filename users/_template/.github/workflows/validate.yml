@@ -1,0 +1,42 @@
+name: Validate Profile
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+    
+    - name: Setup Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: '18'
+        cache: 'npm'
+        
+    - name: Install dependencies
+      run: npm ci
+      
+    - name: Validate profile
+      run: npm run validate
+      
+    - name: Check Schema.org compatibility
+      run: npm run check-schema
+      
+    - name: Generate JSON-LD
+      if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+      run: npm run generate-jsonld
+      
+    - name: Commit JSON-LD
+      if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add public/profile.jsonld
+        git commit -m "Update JSON-LD profile" || echo "No changes to commit"
+        git push 

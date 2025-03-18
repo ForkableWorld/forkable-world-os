@@ -1,9 +1,24 @@
 {
-  "name": "forkable-world-os",
-  "version": "0.0.1",
-  "license": "MIT",
-  "scripts": {},
+  "name": "forkable-world",
   "private": true,
-  "dependencies": {},
-  "devDependencies": {}
+  "scripts": {
+    "build": "turbo build",
+    "dev": "turbo dev",
+    "lint": "turbo lint",
+    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+    "prepare": "husky install"
+  },
+  "devDependencies": {
+    "@turbo/gen": "^1.12.4",
+    "eslint": "^8.0.0",
+    "husky": "^8.0.0",
+    "prettier": "^3.0.0",
+    "turbo": "^1.12.4",
+    "typescript": "^5.0.0"
+  },
+  "packageManager": "pnpm@8.9.0",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ]
 }

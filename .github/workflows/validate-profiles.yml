@@ -1,0 +1,50 @@
+name: Validate User Profiles
+
+on:
+  push:
+    paths:
+      - 'users/**'
+  pull_request:
+    paths:
+      - 'users/**'
+  schedule:
+    - cron: '0 0 * * *'  # Daily check
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+      with:
+        submodules: 'recursive'
+        
+    - name: Setup Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: '18'
+        cache: 'npm'
+        
+    - name: Install dependencies
+      run: |
+        cd tools
+        npm ci
+        
+    - name: Validate all profiles
+      run: |
+        for d in users/*/; do
+          if [ -f "$d/profile.md" ]; then
+            echo "Validating $d"
+            node tools/validate-profile.js "$d/profile.md" || exit 1
+          fi
+        done
+        
+    - name: Check for broken submodules
+      run: |
+        git submodule status | while read line; do
+          if [[ $line == -* ]]; then
+            echo "Error: Broken submodule detected"
+            echo $line
+            exit 1
+          fi
+        done 

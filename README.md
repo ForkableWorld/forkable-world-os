@@ -67,3 +67,49 @@ The goal is to create 8 billion forks of this repository, one for each person. E
 If you have any questions or would like to get in touch with the project maintainers, please feel free to [open an issue](https://github.com/ForkableWorld/forkable-world/issues) or post in our [Discussions](https://github.com/ForkableWorld/forkable-world/discussions) forum.
 
 We're always happy to hear from others who share our passion for open-source governance and data-driven decision-making!
+
+### Quick Start 🚀
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/ForkableWorld/forkable-world-os.git
+   cd forkable-world-os
+   ```
+
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
+
+3. **Set up environment**
+   - Copy `.env.example` to `.env`
+   - Update the environment variables as needed
+
+4. **Start the development server**
+   ```bash
+   npm run dev
+   ```
+
+### Technology Stack 💻
+
+- **Frontend**: Next.js, React, TypeScript
+- **Backend**: Node.js
+- **Database**: PostgreSQL
+- **AI/ML**: TensorFlow, OpenAI API
+- **Testing**: Jest, Cypress
+- **DevOps**: Docker, GitHub Actions
+
+### Development Prerequisites 🛠️
+
+- Node.js 18.x or higher
+- npm 9.x or higher
+- Git
+- PostgreSQL 14.x or higher
+
+### License 📝
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+### Code of Conduct 🤝
+
+We are committed to fostering an inclusive and welcoming community. Please read our [Code of Conduct](CODE_OF_CONDUCT.md) before contributing.

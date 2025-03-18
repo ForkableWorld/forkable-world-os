@@ -1,0 +1,21 @@
+{
+  "name": "forkable-world-profile",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "validate": "node scripts/validate.js",
+    "check-schema": "node scripts/check-schema.js",
+    "generate-jsonld": "node scripts/generate-jsonld.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "ajv": "^8.12.0",
+    "ajv-formats": "^2.1.1",
+    "gray-matter": "^4.0.3",
+    "js-yaml": "^4.1.0",
+    "node-fetch": "^2.6.7"
+  },
+  "devDependencies": {
+    "jest": "^29.5.0"
+  }
+} 
