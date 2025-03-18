@@ -1,0 +1,28 @@
+{
+  "skills": [
+    {
+      "skill": "Business Development",
+      "proficiency": "Expert"
+    },
+    {
+      "skill": "Strategic Leadership",
+      "proficiency": "Expert"
+    },
+    {
+      "skill": "Impact Consulting",
+      "proficiency": "Expert"
+    },
+    {
+      "skill": "Healthcare Innovation",
+      "proficiency": "Expert"
+    },
+    {
+      "skill": "Public Speaking",
+      "proficiency": "Expert"
+    },
+    {
+      "skill": "Research & Analysis",
+      "proficiency": "Expert"
+    }
+  ]
+} 

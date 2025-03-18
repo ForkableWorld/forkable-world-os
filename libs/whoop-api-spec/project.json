@@ -1,8 +1,0 @@
-{
-  "$schema": "../../node_modules/nx/schemas/project-schema.json",
-  "name": "whoop-api-spec",
-  "sourceRoot": "libs/whoop-api-spec/src",
-  "projectType": "library",
-  "targets": {},
-  "tags": []
-}
